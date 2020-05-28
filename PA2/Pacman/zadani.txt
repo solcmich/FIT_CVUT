@@ -1,0 +1,80 @@
+PACMAN
+Byla implementována hra Pacman proti počítači v konzolové verzi. Hra splňuje základní požadavky na hru pacman, tzn. umožňuje sbírání mincí, třešniček, bonusů a využívání teleportů.
+----------------------
+Duchové
+----------------------
+Byly implementovány 4 druhy duchů podle strategie na nahánění hráče.
+    1. Duch Blinky míří vždy na pozici hráče v mapě
+    2. Duch Clyde svojí strategii rozhoduje podle vzdálenosti od hráče - při vzdálenosti více než 8 polí míří na hráče, jinak míří do svého domovského rohu.
+    3. Duch Inky používá pro svoje rozhodnutí pozici ducha "Blinky" - vede od něj vektor ke hráči, ten vektor poté zdvojnásobí a toto je jeho cílové pole.
+    4. Duch "Speedy" míří vždy 4 pole před hráče ve směru jeho pohybu.
+Duchové mají 2 možnosti jak svého cíle dosáhnout:
+    1. Smart - Pomocí BFS duch hledá nejkratší cestu k jeho cílovému poli dle jeho chování.
+    2. Normal - Duch se na každé křižovatce rozhoduje kam zatočit, priorita v tu chvíli je nezměnit směr pohybu a druhé kritérium je vzdálenost "vzdušnou čarou" od jeho cílového pole.
+Duchové mají 2 módy, které během hry střídají:
+    1. Scatter - Duch míří do svého domovského rohu
+    2. Chase - Duch nahání hráče dle své strategie.
+Hráč také může po mapě sbírat bonusy, které na chvíli promění duchy v symbol 'X' a v tu chvíli se duchové dají zabít. Při zabití míří do své "spawn" lokace. Ve 2/3 času svého "Frigtened" modu začne duch blikat, aby upozornil, že se brzy vrátí do normálu.
+Když duch zabije hráče, všichni duchové míří do své spawn lokace a hráč zůstavá na místě.
+
+-----------------------
+Hráč
+-----------------------
+Hráč má znak "@" a ovládá se pomocí "w,a,s,d". Jeho cílem se sesbírat všechny mince a nezemřít - ukazatel je dole pod mapou.
+
+-----------------------
+Mapa
+-----------------------
+Mapa musí mít následující náležitosti:
+    1. Musí být jasně označeny všechny schůdné rohy mapy a tom následovně: Levý horní - 1, pravý horní - 2, levý dolní - 3, pravý dolní - 4
+    2. Schůdná místa jsou označeny jako (' ' - prázdné pole,'.' - mince, ';' - Třešeň, 'o' - Bonus)
+    3. Může být implementováno 0-n duchů, kde n je počet volných polí v mapě. (5 - Blinky, 6 - Clyde, 7 - Speedy, 8 - Inky)
+    4. Mapa musí být ohraničena znaky '#' / '|' / 'A-Z'
+    5. Musí mít právě jednoho hráče '@'
+Znaky A-Z jsou pro teleporty, každý takový znak má na mapě odpovídající znak na protilehlé stěně na stejné pozici. Každý znak může být pro teleport použit právě jednou.
+Bonus se používá pro změnení chování duchů z jejich defaultních hodnost na "Frightened".
+
+Celková podoba mapy může tedy být například následující.
+
+#|#|#|#|#|D|#|#|#|#
+A1 . . 5 . . . . 2A
+B. 8 . . . . 7 . .B
+C. . # . @ . . o .C
+#. . # . . . . . .#
+#4 . # . . 6 . . 3#
+#|#|#|#|#|D|#|#|#|#
+
+----------------------
+Konfigurace
+----------------------
+Hra má několik konfigurovatelných proměnných.
+Atributy "SPEED" určují, jednou za kolik framů se daný objekt pohne - jeden frame trvá 300ms.
+Konfiguarce je ve formátu <klíč><mezera><hodnota><newline>
+
+PLAYER_SPEED - 5 default
+GHOST_SPEED - 20 default
+PLAYER_LIVES 3 default
+GHOST_MODE  - Normal / Smart - Normal default
+SCATTER_MODE_DUR - Trvání modu ve framech - 40 default
+CHASE_MODE_DUR - Trvání modu ve framech - 60 default
+FRIGHTENED_MODE_DUR - 30 default
+FRIGHTENED_SPEED - 25 default 
+
+Příklad validní konfuguarce je tedy:
+
+PLAYER_SPEED 10
+GHOST_SPEED 5
+PLAYER_LIVES 10
+GHOST_MODE Normal
+SCATTER_MODE_DUR 10
+CHASE_MODE_DUR 40
+FRIGHTENED_MODE_DUR 35
+FRIGHTENED_SPEED 10
+
+--------------------
+Gameplay
+--------------------
+Hra začíná výběrem levelu z dostupných filů.
+Fily jsou vždy umístěné ve složce ./examples/Game.
+Jednotlivý file musí obsahovat soubor Map.txt a volitelně obsahuje soubor Config.txt s dostupnou validní configurací.
+Hra končí ve chvíli, kdy hráč ztratí poslední život, nebo když sní všechny dostupné mince. Je zobrazena hláška a program ukončen.
