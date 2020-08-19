@@ -1,0 +1,66 @@
+[test.tester]: starting insertion time test for <function split_data_random at 0x00000285B8C43048>
+[test.tester]: time test INSERT 0: 0.0240s
+[test.tester]: time test QUERY 0:  0.4457s
+[test.tester]: time test INSERT 1: 0.0239s
+[test.tester]: time test QUERY 1:  0.4356s
+[test.tester]: time test INSERT 2: 0.0228s
+[test.tester]: time test QUERY 2:  0.3972s
+[test.tester]: time test INSERT 3: 0.0239s
+[test.tester]: time test QUERY 3:  0.4469s
+[test.tester]: time test INSERT 4: 0.0219s
+[test.tester]: time test QUERY 4:  0.4145s
+[test.tester]: time test INSERT 5: 0.0229s
+[test.tester]: time test QUERY 5:  0.4027s
+[test.tester]: time test INSERT 6: 0.0250s
+[test.tester]: time test QUERY 6:  0.4602s
+[test.tester]: time test INSERT 7: 0.0219s
+[test.tester]: time test QUERY 7:  0.4244s
+[test.tester]: time test INSERT 8: 0.0241s
+[test.tester]: time test QUERY 8:  0.6376s
+[test.tester]: time test INSERT 9: 0.0449s
+[test.tester]: time test QUERY 9:  0.5486s
+[test.tester]: TIME TEST RESULT: add: 0.0255s, query: 0.4613s
+[test.tester]: starting insertion time test for <function split_data_perfect at 0x00000285B8C43268>
+[test.tester]: time test INSERT 0: 3.2464s
+[test.tester]: time test QUERY 0:  0.9953s
+[test.tester]: time test INSERT 1: 3.8177s
+[test.tester]: time test QUERY 1:  0.4996s
+[test.tester]: time test INSERT 2: 3.3002s
+[test.tester]: time test QUERY 2:  0.4610s
+[test.tester]: time test INSERT 3: 3.2186s
+[test.tester]: time test QUERY 3:  0.5451s
+[test.tester]: time test INSERT 4: 3.4261s
+[test.tester]: time test QUERY 4:  0.6469s
+[test.tester]: time test INSERT 5: 3.3307s
+[test.tester]: time test QUERY 5:  0.6396s
+[test.tester]: time test INSERT 6: 3.1808s
+[test.tester]: time test QUERY 6:  0.6150s
+[test.tester]: time test INSERT 7: 3.3067s
+[test.tester]: time test QUERY 7:  0.4633s
+[test.tester]: time test INSERT 8: 3.5207s
+[test.tester]: time test QUERY 8:  0.6620s
+[test.tester]: time test INSERT 9: 3.4737s
+[test.tester]: time test QUERY 9:  0.6039s
+[test.tester]: TIME TEST RESULT: add: 3.3822s, query: 0.6132s
+[test.tester]: starting insertion time test for <function split_data_smart at 0x00000285B8C43598>
+[test.tester]: time test INSERT 0: 0.0300s
+[test.tester]: time test QUERY 0:  0.4133s
+[test.tester]: time test INSERT 1: 0.0311s
+[test.tester]: time test QUERY 1:  0.4743s
+[test.tester]: time test INSERT 2: 0.0229s
+[test.tester]: time test QUERY 2:  0.4007s
+[test.tester]: time test INSERT 3: 0.0229s
+[test.tester]: time test QUERY 3:  0.3978s
+[test.tester]: time test INSERT 4: 0.0280s
+[test.tester]: time test QUERY 4:  0.4364s
+[test.tester]: time test INSERT 5: 0.0220s
+[test.tester]: time test QUERY 5:  0.3488s
+[test.tester]: time test INSERT 6: 0.0279s
+[test.tester]: time test QUERY 6:  0.4760s
+[test.tester]: time test INSERT 7: 0.0299s
+[test.tester]: time test QUERY 7:  0.3991s
+[test.tester]: time test INSERT 8: 0.0221s
+[test.tester]: time test QUERY 8:  0.3411s
+[test.tester]: time test INSERT 9: 0.0220s
+[test.tester]: time test QUERY 9:  0.3599s
+[test.tester]: TIME TEST RESULT: add: 0.0259s, query: 0.4047s

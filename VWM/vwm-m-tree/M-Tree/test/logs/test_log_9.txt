@@ -1,0 +1,44 @@
+[test.tester]: starting insertion time test for <function split_data_random at 0x00000146F5013048>
+[test.tester]: time test INSERT 0: 0.0279s
+[test.tester]: time test QUERY 0:  0.4972s
+[test.tester]: time test INSERT 1: 0.0479s
+[test.tester]: time test QUERY 1:  0.4848s
+[test.tester]: time test INSERT 2: 0.0269s
+[test.tester]: time test QUERY 2:  0.4781s
+[test.tester]: time test INSERT 3: 0.0309s
+[test.tester]: time test QUERY 3:  0.4989s
+[test.tester]: time test INSERT 4: 0.0250s
+[test.tester]: time test QUERY 4:  0.5500s
+[test.tester]: time test INSERT 5: 0.0220s
+[test.tester]: time test QUERY 5:  0.3941s
+[test.tester]: time test INSERT 6: 0.0240s
+[test.tester]: time test QUERY 6:  0.4870s
+[test.tester]: time test INSERT 7: 0.0210s
+[test.tester]: time test QUERY 7:  0.4110s
+[test.tester]: time test INSERT 8: 0.0219s
+[test.tester]: time test QUERY 8:  0.4000s
+[test.tester]: time test INSERT 9: 0.0310s
+[test.tester]: time test QUERY 9:  0.5451s
+[test.tester]: TIME TEST RESULT: add: 0.0279s, query: 0.4746s
+[test.tester]: starting insertion time test for <function split_data_smart at 0x00000146F5013598>
+[test.tester]: time test INSERT 0: 0.0309s
+[test.tester]: time test QUERY 0:  0.4151s
+[test.tester]: time test INSERT 1: 0.0299s
+[test.tester]: time test QUERY 1:  0.4929s
+[test.tester]: time test INSERT 2: 0.0241s
+[test.tester]: time test QUERY 2:  0.4199s
+[test.tester]: time test INSERT 3: 0.0230s
+[test.tester]: time test QUERY 3:  0.3780s
+[test.tester]: time test INSERT 4: 0.0249s
+[test.tester]: time test QUERY 4:  0.4099s
+[test.tester]: time test INSERT 5: 0.0211s
+[test.tester]: time test QUERY 5:  0.3399s
+[test.tester]: time test INSERT 6: 0.0309s
+[test.tester]: time test QUERY 6:  0.4745s
+[test.tester]: time test INSERT 7: 0.0279s
+[test.tester]: time test QUERY 7:  0.4049s
+[test.tester]: time test INSERT 8: 0.0219s
+[test.tester]: time test QUERY 8:  0.3528s
+[test.tester]: time test INSERT 9: 0.0219s
+[test.tester]: time test QUERY 9:  0.3681s
+[test.tester]: TIME TEST RESULT: add: 0.0257s, query: 0.4056s
