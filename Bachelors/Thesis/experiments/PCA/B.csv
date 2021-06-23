@@ -1,0 +1,226 @@
+,classifier,preprocessor,prior,f1,precision,recall,dataset_description
+0,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+1,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+2,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+3,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.01,0.17660256410256414,0.75,0.10833333333333335,PCA with preprocessing
+4,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.01,0.21502217081164451,0.7875,0.13484848484848483,PCA with preprocessing
+5,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.01,0.29679487179487174,0.7811111111111112,0.1984848484848485,PCA with preprocessing
+6,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.01,0.27344322344322347,0.6317460317460316,0.1893939393939394,PCA with preprocessing
+7,MLPClassifier(random_state=12),,0.01,0.1488138974552018,0.13506712523719164,0.19621212121212123,PCA with preprocessing
+8,MLPClassifier(random_state=12),,0.01,0.1208635590988532,0.0967278146117557,0.18712121212121213,PCA with preprocessing
+9,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.01,0.04307789155615242,0.03852564102564102,0.05378787878787879,PCA with preprocessing
+10,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.01,0.07654250539096447,0.06325709348458035,0.09924242424242424,PCA with preprocessing
+11,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.01,0.08106572465077085,0.06883980785296574,0.1,PCA with preprocessing
+12,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.01,0.09994701364831256,0.07788112886948531,0.14393939393939392,PCA with preprocessing
+13,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.01,0.101940026595199,0.08461789470863881,0.13333333333333333,PCA with preprocessing
+14,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.01,0.09048999388817625,0.07206585051746342,0.13484848484848486,PCA with preprocessing
+15,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.01,0.1349948994058135,0.10439085779239232,0.1984848484848485,PCA with preprocessing
+16,DecisionTreeClassifier(random_state=12),,0.01,0.12770083423620032,0.10454600351339483,0.17045454545454547,PCA with preprocessing
+17,DecisionTreeClassifier(random_state=12),,0.01,0.1348425605370198,0.101399537163684,0.20833333333333334,PCA with preprocessing
+18,SVC(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+19,SVC(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+20,SVC(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+21,SVC(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+22,SVC(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+23,SVC(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+24,SVC(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+25,SVC(random_state=12),,0.01,0.0,0.0,0.0,PCA with preprocessing
+26,SVC(random_state=12),,0.01,0.0,0.0,0.0,PCA with preprocessing
+27,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.01,0.01666666666666667,0.1,0.00909090909090909,PCA with preprocessing
+28,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+29,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+30,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+31,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+32,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.01,0.03333333333333334,0.2,0.01818181818181818,PCA with preprocessing
+33,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.01,0.03333333333333334,0.2,0.01818181818181818,PCA with preprocessing
+34,RandomForestClassifier(random_state=12),,0.01,0.05,0.3,0.02727272727272727,PCA with preprocessing
+35,RandomForestClassifier(random_state=12),,0.01,0.01666666666666667,0.1,0.00909090909090909,PCA with preprocessing
+36,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+37,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+38,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+39,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+40,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+41,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+42,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.01,0.0,0.0,0.0,PCA with preprocessing
+43,LogisticRegression(random_state=12),,0.01,0.08375640009372678,0.08969017094017093,0.08181818181818182,PCA with preprocessing
+44,LogisticRegression(random_state=12),,0.01,0.07355661881977672,0.07535936285936287,0.07272727272727272,PCA with preprocessing
+45,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+46,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+47,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.05,0.10826923076923078,0.23500000000000001,0.07272727272727272,PCA with preprocessing
+48,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.05,0.18470119316229155,0.3007575757575758,0.16212121212121214,PCA with preprocessing
+49,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.05,0.16009107461739042,0.18118506493506492,0.15227272727272728,PCA with preprocessing
+50,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.05,0.2158574354625141,0.22388655462184875,0.225,PCA with preprocessing
+51,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.05,0.1873825536717639,0.1988976067880733,0.225,PCA with preprocessing
+52,MLPClassifier(random_state=12),,0.05,0.057904957478856135,0.03441712153944375,0.2159090909090909,PCA with preprocessing
+53,MLPClassifier(random_state=12),,0.05,0.09148271644208984,0.0554175512858493,0.28939393939393937,PCA with preprocessing
+54,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.05,0.0365767346173495,0.0210068926431247,0.14393939393939395,PCA with preprocessing
+55,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.05,0.042944158327650674,0.024467054814777123,0.17954545454545456,PCA with preprocessing
+56,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.05,0.07095617774487392,0.04114166956980386,0.2598484848484849,PCA with preprocessing
+57,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.05,0.07784394255879648,0.045355978183000745,0.27954545454545454,PCA with preprocessing
+58,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.05,0.09537531627200249,0.05449829358126684,0.396969696969697,PCA with preprocessing
+59,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.05,0.05860481783651496,0.033405025588725865,0.24242424242424243,PCA with preprocessing
+60,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.05,0.061410125678587335,0.034880283888763366,0.26060606060606056,PCA with preprocessing
+61,DecisionTreeClassifier(random_state=12),,0.05,0.08628531821411034,0.05002876497707644,0.3166666666666666,PCA with preprocessing
+62,DecisionTreeClassifier(random_state=12),,0.05,0.09801946614073917,0.05684433559077153,0.3613636363636364,PCA with preprocessing
+63,SVC(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+64,SVC(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+65,SVC(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+66,SVC(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+67,SVC(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+68,SVC(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.05,0.015384615384615385,0.05,0.00909090909090909,PCA with preprocessing
+69,SVC(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+70,SVC(random_state=12),,0.05,0.0,0.0,0.0,PCA with preprocessing
+71,SVC(random_state=12),,0.05,0.0,0.0,0.0,PCA with preprocessing
+72,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.05,0.0441025641025641,0.125,0.02727272727272727,PCA with preprocessing
+73,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.05,0.04633699633699634,0.2,0.026515151515151512,PCA with preprocessing
+74,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.05,0.014285714285714285,0.05,0.008333333333333333,PCA with preprocessing
+75,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.05,0.07838827838827839,0.3833333333333333,0.04469696969696969,PCA with preprocessing
+76,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.05,0.03333333333333334,0.2,0.01818181818181818,PCA with preprocessing
+77,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.05,0.04633699633699634,0.18333333333333332,0.02727272727272727,PCA with preprocessing
+78,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.05,0.048717948717948725,0.3,0.026515151515151512,PCA with preprocessing
+79,RandomForestClassifier(random_state=12),,0.05,0.1554945054945055,0.6666666666666666,0.09015151515151516,PCA with preprocessing
+80,RandomForestClassifier(random_state=12),,0.05,0.18424908424908423,0.7666666666666666,0.10833333333333335,PCA with preprocessing
+81,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+82,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+83,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+84,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+85,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+86,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+87,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.05,0.0,0.0,0.0,PCA with preprocessing
+88,LogisticRegression(random_state=12),,0.05,0.1254714025747679,0.08642948741551806,0.23409090909090907,PCA with preprocessing
+89,LogisticRegression(random_state=12),,0.05,0.13454223296083762,0.09307365285883083,0.2606060606060606,PCA with preprocessing
+90,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+91,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.1,0.008,0.007692307692307693,0.008333333333333333,PCA with preprocessing
+92,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.1,0.1218800998096414,0.14242424242424243,0.12575757575757576,PCA with preprocessing
+93,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.1,0.14034048758134365,0.10668454663615953,0.2522727272727273,PCA with preprocessing
+94,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.1,0.1522048020840279,0.1092901794222549,0.2621212121212121,PCA with preprocessing
+95,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.1,0.15745051706093757,0.10471701673184644,0.3242424242424243,PCA with preprocessing
+96,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.1,0.13698375052669304,0.08858998524798799,0.30681818181818177,PCA with preprocessing
+97,MLPClassifier(random_state=12),,0.1,0.08532325016750382,0.04652899671719296,0.5401515151515152,PCA with preprocessing
+98,MLPClassifier(random_state=12),,0.1,0.0770210747675855,0.042272366687785244,0.4606060606060606,PCA with preprocessing
+99,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.1,0.03618721949565486,0.019639780581805183,0.2348484848484848,PCA with preprocessing
+100,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.1,0.04194003512879169,0.022536820683264857,0.3053030303030303,PCA with preprocessing
+101,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.1,0.06060821279043858,0.032768103648864226,0.4053030303030303,PCA with preprocessing
+102,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.1,0.05604492016852832,0.03040211871935311,0.36969696969696975,PCA with preprocessing
+103,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.1,0.053822426809889024,0.029082314485405797,0.36969696969696975,PCA with preprocessing
+104,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.1,0.04831079841938188,0.026197980882243333,0.31666666666666665,PCA with preprocessing
+105,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.1,0.04174671466654724,0.02227148198072156,0.33484848484848484,PCA with preprocessing
+106,DecisionTreeClassifier(random_state=12),,0.1,0.06628921710216658,0.036163487390663177,0.40681818181818186,PCA with preprocessing
+107,DecisionTreeClassifier(random_state=12),,0.1,0.07739804777356615,0.04209507167925583,0.4871212121212121,PCA with preprocessing
+108,SVC(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+109,SVC(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+110,SVC(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+111,SVC(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.1,0.01666666666666667,0.1,0.00909090909090909,PCA with preprocessing
+112,SVC(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.1,0.04538461538461539,0.175,0.02727272727272727,PCA with preprocessing
+113,SVC(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.1,0.01666666666666667,0.1,0.00909090909090909,PCA with preprocessing
+114,SVC(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+115,SVC(random_state=12),,0.1,0.0,0.0,0.0,PCA with preprocessing
+116,SVC(random_state=12),,0.1,0.0,0.0,0.0,PCA with preprocessing
+117,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.1,0.12058537477015738,0.10725330225330225,0.14393939393939395,PCA with preprocessing
+118,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.1,0.11599429496476994,0.10740800865800866,0.13560606060606062,PCA with preprocessing
+119,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.1,0.12350828050518455,0.17928571428571427,0.09848484848484848,PCA with preprocessing
+120,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.1,0.16713875563720765,0.33107142857142857,0.11742424242424243,PCA with preprocessing
+121,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.1,0.1503425985778927,0.375,0.09924242424242424,PCA with preprocessing
+122,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.1,0.07660256410256411,0.325,0.04469696969696969,PCA with preprocessing
+123,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.1,0.11338827838827839,0.37333333333333335,0.07196969696969698,PCA with preprocessing
+124,RandomForestClassifier(random_state=12),,0.1,0.30317214605140297,0.5538095238095238,0.21666666666666665,PCA with preprocessing
+125,RandomForestClassifier(random_state=12),,0.1,0.2563134079542748,0.495,0.18106060606060606,PCA with preprocessing
+126,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+127,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+128,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+129,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+130,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+131,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+132,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.1,0.0,0.0,0.0,PCA with preprocessing
+133,LogisticRegression(random_state=12),,0.1,0.12046201406644655,0.07219762435913271,0.38636363636363635,PCA with preprocessing
+134,LogisticRegression(random_state=12),,0.1,0.12732015134180824,0.0775347185449106,0.36893939393939396,PCA with preprocessing
+135,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.25,0.051323039522304784,0.03198844194470244,0.18787878787878787,PCA with preprocessing
+136,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.25,0.050783129271719504,0.0283348428284049,0.2696969696969697,PCA with preprocessing
+137,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.25,0.07185462228945935,0.0391310162140491,0.4590909090909091,PCA with preprocessing
+138,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.25,0.07355966542686568,0.03979854631786288,0.4962121212121212,PCA with preprocessing
+139,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.25,0.0780162866862964,0.0424019768368824,0.5053030303030304,PCA with preprocessing
+140,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.25,0.082241153272362,0.044809601592024365,0.5053030303030304,PCA with preprocessing
+141,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.25,0.07496453521448962,0.040421441019034554,0.5227272727272727,PCA with preprocessing
+142,MLPClassifier(random_state=12),,0.25,0.050988256687922076,0.026706061231745914,0.5772727272727273,PCA with preprocessing
+143,MLPClassifier(random_state=12),,0.25,0.048844704670748765,0.02547609958697052,0.6030303030303031,PCA with preprocessing
+144,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.25,0.03708427763695052,0.01922424120194269,0.531060606060606,PCA with preprocessing
+145,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.25,0.03452749137008475,0.017944045231790943,0.4598484848484848,PCA with preprocessing
+146,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.25,0.04098477705204156,0.02129571224136485,0.5507575757575758,PCA with preprocessing
+147,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.25,0.04558110410621204,0.023651885523688434,0.6318181818181818,PCA with preprocessing
+148,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.25,0.032579593464806295,0.016873852991073298,0.47651515151515156,PCA with preprocessing
+149,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.25,0.028165300073025545,0.014555375693124758,0.4431818181818182,PCA with preprocessing
+150,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.25,0.02959686485212701,0.015265367016535003,0.4871212121212121,PCA with preprocessing
+151,DecisionTreeClassifier(random_state=12),,0.25,0.044318745405486026,0.023119850588118763,0.5416666666666667,PCA with preprocessing
+152,DecisionTreeClassifier(random_state=12),,0.25,0.04598176892640841,0.023950576336688897,0.5765151515151514,PCA with preprocessing
+153,SVC(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.25,0.01090909090909091,0.006963869463869464,0.045454545454545456,PCA with preprocessing
+154,SVC(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.25,0.08044621267744502,0.05126849589644141,0.25075757575757573,PCA with preprocessing
+155,SVC(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.25,0.08430799019748253,0.051736078851441755,0.278030303030303,PCA with preprocessing
+156,SVC(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.25,0.09241669368497224,0.05513246201005108,0.29772727272727273,PCA with preprocessing
+157,SVC(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.25,0.12076858317459822,0.11984578113724745,0.2962121212121212,PCA with preprocessing
+158,SVC(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.25,0.11203740743144024,0.07553851549081893,0.2606060606060606,PCA with preprocessing
+159,SVC(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.25,0.10793896677981332,0.07502410699377429,0.30606060606060603,PCA with preprocessing
+160,SVC(random_state=12),,0.25,0.0,0.0,0.0,PCA with preprocessing
+161,SVC(random_state=12),,0.25,0.011764705882352943,0.016666666666666666,0.00909090909090909,PCA with preprocessing
+162,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.25,0.05990172968643191,0.03272322037701034,0.3621212121212121,PCA with preprocessing
+163,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.25,0.0964290688989026,0.05444493650962369,0.4409090909090909,PCA with preprocessing
+164,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.25,0.13139453205524634,0.0784021602805783,0.42348484848484846,PCA with preprocessing
+165,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.25,0.1680160650679972,0.11073796019002054,0.36969696969696975,PCA with preprocessing
+166,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.25,0.18346264423068237,0.13348858566668081,0.29772727272727273,PCA with preprocessing
+167,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.25,0.25701559628042536,0.22160728890992049,0.3333333333333333,PCA with preprocessing
+168,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.25,0.251537464538525,0.19750126502213788,0.37803030303030305,PCA with preprocessing
+169,RandomForestClassifier(random_state=12),,0.25,0.20983117188343298,0.13269786577056275,0.5590909090909091,PCA with preprocessing
+170,RandomForestClassifier(random_state=12),,0.25,0.2056485791470312,0.12757729446690694,0.5606060606060606,PCA with preprocessing
+171,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.25,0.030638758570913027,0.030368039664378333,0.045454545454545456,PCA with preprocessing
+172,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.25,0.052692765273686736,0.03897116542388239,0.11742424242424243,PCA with preprocessing
+173,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.25,0.039924386998813455,0.026528311742522633,0.09090909090909091,PCA with preprocessing
+174,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.25,0.07464201140616235,0.06731005134149151,0.10757575757575757,PCA with preprocessing
+175,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.25,0.04821208601696407,0.03849197860962567,0.07272727272727272,PCA with preprocessing
+176,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.25,0.06729528748196749,0.05162321866206743,0.10757575757575757,PCA with preprocessing
+177,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.25,0.05542803569119359,0.046347911347911344,0.09015151515151515,PCA with preprocessing
+178,LogisticRegression(random_state=12),,0.25,0.06695583619098247,0.03563991040069907,0.5757575757575758,PCA with preprocessing
+179,LogisticRegression(random_state=12),,0.25,0.06636451094655843,0.03527914528600415,0.5681818181818182,PCA with preprocessing
+180,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.5,0.023718309005494757,0.012071195070625696,0.6840909090909091,PCA with preprocessing
+181,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.5,0.028820248584402453,0.014695575068929809,0.7477272727272728,PCA with preprocessing
+182,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.5,0.03025970411552879,0.0154444182874908,0.7492424242424243,PCA with preprocessing
+183,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.5,0.03378884961109778,0.01726424092097365,0.793939393939394,PCA with preprocessing
+184,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.5,0.0343310920903421,0.01754207164559893,0.8015151515151515,PCA with preprocessing
+185,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.5,0.036797141621112715,0.018809235738664287,0.8477272727272727,PCA with preprocessing
+186,MLPClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.5,0.035525746570229486,0.018152921733675765,0.8295454545454545,PCA with preprocessing
+187,MLPClassifier(random_state=12),,0.5,0.0409274962329925,0.021204429253931407,0.6143939393939395,PCA with preprocessing
+188,MLPClassifier(random_state=12),,0.5,0.036582955479360545,0.01878193998285966,0.7113636363636364,PCA with preprocessing
+189,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.5,0.01982567369333927,0.01007996192883989,0.6030303030303031,PCA with preprocessing
+190,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.5,0.02539233852402916,0.012935880955813647,0.6946969696969696,PCA with preprocessing
+191,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.5,0.028216079260965338,0.014404427131562592,0.6954545454545455,PCA with preprocessing
+192,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.5,0.02829958172845266,0.01445847354662951,0.6704545454545455,PCA with preprocessing
+193,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.5,0.02674988151460777,0.013645080811820424,0.6840909090909091,PCA with preprocessing
+194,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.5,0.023876728429949087,0.012180326873473361,0.6106060606060606,PCA with preprocessing
+195,DecisionTreeClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.5,0.026196144500636176,0.013357940228600443,0.6939393939393941,PCA with preprocessing
+196,DecisionTreeClassifier(random_state=12),,0.5,0.032146766096430045,0.01646010626929044,0.6946969696969697,PCA with preprocessing
+197,DecisionTreeClassifier(random_state=12),,0.5,0.03578829679546337,0.018303259845388054,0.8037878787878787,PCA with preprocessing
+198,SVC(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.5,0.02447877395543672,0.012439067931094472,0.7659090909090909,PCA with preprocessing
+199,SVC(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.5,0.029675265438946618,0.015134518982255204,0.7666666666666667,PCA with preprocessing
+200,SVC(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.5,0.030376303874273015,0.015490326650435402,0.7840909090909091,PCA with preprocessing
+201,SVC(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.5,0.03165556844140795,0.01616493309688326,0.7674242424242423,PCA with preprocessing
+202,SVC(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.5,0.03144678451729886,0.016050476063132067,0.775,PCA with preprocessing
+203,SVC(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.5,0.030028834097071334,0.015332003999062805,0.7393939393939395,PCA with preprocessing
+204,SVC(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.5,0.03258154547589569,0.016642542971839088,0.775,PCA with preprocessing
+205,SVC(random_state=12),,0.5,0.01693137863415999,0.008539001117291518,1.0,PCA with preprocessing
+206,SVC(random_state=12),,0.5,0.0163412455876573,0.008238248169054881,1.0,PCA with preprocessing
+207,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.5,0.02935622299995048,0.014989689858713375,0.7128787878787878,PCA with preprocessing
+208,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.5,0.04138447659945961,0.021269306929066888,0.775,PCA with preprocessing
+209,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.5,0.042323835496558694,0.02184246914255959,0.6954545454545454,PCA with preprocessing
+210,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.5,0.04971780276879571,0.025757413417043646,0.7212121212121212,PCA with preprocessing
+211,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.5,0.058328716294734975,0.03057620283262983,0.6484848484848486,PCA with preprocessing
+212,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.5,0.07065412489056924,0.037443709048154236,0.6318181818181818,PCA with preprocessing
+213,RandomForestClassifier(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.5,0.07770635906289326,0.041347792652006624,0.6848484848484848,PCA with preprocessing
+214,RandomForestClassifier(random_state=12),,0.5,0.045622297636696695,0.023493183595634293,0.793939393939394,PCA with preprocessing
+215,RandomForestClassifier(random_state=12),,0.5,0.05019433241193668,0.025914368025429353,0.8113636363636363,PCA with preprocessing
+216,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=5)]",0.5,0.025797634721527057,0.013167542993046632,0.6386363636363637,PCA with preprocessing
+217,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=10)]",0.5,0.027869247952841562,0.014224745555575902,0.6931818181818182,PCA with preprocessing
+218,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=20)]",0.5,0.027667509792904704,0.014128651885195465,0.6666666666666667,PCA with preprocessing
+219,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=40)]",0.5,0.028075333224937986,0.014326531593018138,0.7022727272727273,PCA with preprocessing
+220,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=60)]",0.5,0.030034326315412717,0.01532632497245128,0.7477272727272728,PCA with preprocessing
+221,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=80)]",0.5,0.029572748668174165,0.015084510709897112,0.7568181818181818,PCA with preprocessing
+222,LogisticRegression(random_state=12),"[Normalizer(), PCA(n_components=100)]",0.5,0.031713409881132276,0.016191386730109846,0.775,PCA with preprocessing
+223,LogisticRegression(random_state=12),,0.5,0.03971841859931191,0.020396825315050784,0.7659090909090909,PCA with preprocessing
+224,LogisticRegression(random_state=12),,0.5,0.038960146195463716,0.020009883078831756,0.746969696969697,PCA with preprocessing

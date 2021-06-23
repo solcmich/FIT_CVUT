@@ -1,0 +1,681 @@
+,classifier,preprocessor,prior,f1,precision,recall,dataset_description
+0,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.26372771001806433,0.6618638255490973,0.19188184663536773,Feature_Selection_Charged_Off
+1,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.2646519147538127,0.34680702116621354,0.26969874804381844,Feature_Selection_Charged_Off
+2,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.3239308413693527,0.49956036113791924,0.28374413145539906,Feature_Selection_Charged_Off
+3,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.2920826183639386,0.3891612330669461,0.30614241001564946,Feature_Selection_Charged_Off
+4,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.19883263172299276,0.3681728694288401,0.15035211267605636,Feature_Selection_Charged_Off
+5,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.26318752520868205,0.3102520702014077,0.300254303599374,Feature_Selection_Charged_Off
+6,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.29714753785139714,0.27750070336563615,0.3630868544600939,Feature_Selection_Charged_Off
+7,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.3024802035254631,0.3109399886646037,0.3158646322378717,Feature_Selection_Charged_Off
+8,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.14711382804813528,0.2732280717553402,0.10997652582159625,Feature_Selection_Charged_Off
+9,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.16030872477011687,0.19018305487371256,0.16115023474178403,Feature_Selection_Charged_Off
+10,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.19991485392095254,0.24202763237550423,0.21410406885758998,Feature_Selection_Charged_Off
+11,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.31737385507091675,0.3275570073077014,0.3696987480438184,Feature_Selection_Charged_Off
+12,MLPClassifier(random_state=12),SelectKBest(k=5),0.05,0.15891612091647506,0.3072557923066638,0.13352895148669794,Feature_Selection_Charged_Off
+13,MLPClassifier(random_state=12),SelectKBest(),0.05,0.21035141064514007,0.3300145105988205,0.16672535211267606,Feature_Selection_Charged_Off
+14,MLPClassifier(random_state=12),SelectKBest(k=20),0.05,0.2536075810095825,0.3310527706308357,0.24055164319248826,Feature_Selection_Charged_Off
+15,MLPClassifier(random_state=12),SelectKBest(k=40),0.05,0.28184320887216596,0.2959200111188591,0.3046948356807512,Feature_Selection_Charged_Off
+16,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.05,0.23142943056940274,0.23840267094800277,0.23916275430359937,Feature_Selection_Charged_Off
+17,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.05,0.2530321949287724,0.35362957697143527,0.24199921752738654,Feature_Selection_Charged_Off
+18,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.05,0.24630203499051323,0.26925407770732634,0.275547730829421,Feature_Selection_Charged_Off
+19,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.05,0.28738795665268047,0.26397502314348437,0.32394366197183094,Feature_Selection_Charged_Off
+20,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.05,0.3261284893624322,0.31833037864177893,0.3616001564945227,Feature_Selection_Charged_Off
+21,MLPClassifier(random_state=12),,0.05,0.3195318205015645,0.33894258659397564,0.33808685446009384,Feature_Selection_Charged_Off
+22,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.28284317121267966,0.26303830881485935,0.3073552425665102,Feature_Selection_Charged_Off
+23,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.31243498598141295,0.2851043683590805,0.34769170579029735,Feature_Selection_Charged_Off
+24,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.30449018414840273,0.2815643097336091,0.33237480438184663,Feature_Selection_Charged_Off
+25,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.34426154451786356,0.3178574516812378,0.37685837245696396,Feature_Selection_Charged_Off
+26,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.27480160410025267,0.25008004202579365,0.30596635367762126,Feature_Selection_Charged_Off
+27,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.2939574237226282,0.263123263348034,0.33382237871674497,Feature_Selection_Charged_Off
+28,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.333634161461676,0.30287329562630144,0.37411971830985913,Feature_Selection_Charged_Off
+29,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.3162925144585764,0.2827762720607208,0.3601721439749609,Feature_Selection_Charged_Off
+30,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.19320382698770738,0.18000801336629962,0.2112284820031299,Feature_Selection_Charged_Off
+31,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.2634697212562282,0.23184005719480724,0.30737480438184667,Feature_Selection_Charged_Off
+32,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.295932951447462,0.26623415904539405,0.3379890453834116,Feature_Selection_Charged_Off
+33,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.3385098633093494,0.3052025258640544,0.38386150234741784,Feature_Selection_Charged_Off
+34,DecisionTreeClassifier(random_state=12),SelectKBest(k=5),0.05,0.252736290736875,0.2316626660820776,0.27957746478873247,Feature_Selection_Charged_Off
+35,DecisionTreeClassifier(random_state=12),SelectKBest(),0.05,0.2588320215313841,0.23253687356926092,0.2934663536776213,Feature_Selection_Charged_Off
+36,DecisionTreeClassifier(random_state=12),SelectKBest(k=20),0.05,0.28432927400408203,0.25413730099169113,0.32408059467918626,Feature_Selection_Charged_Off
+37,DecisionTreeClassifier(random_state=12),SelectKBest(k=40),0.05,0.3014615010259563,0.2708585445644016,0.3420970266040689,Feature_Selection_Charged_Off
+38,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.05,0.2866558014947824,0.2536010028205982,0.3310054773082942,Feature_Selection_Charged_Off
+39,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.05,0.2997547743061641,0.2691597210013649,0.3394170579029734,Feature_Selection_Charged_Off
+40,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.05,0.3147326512963246,0.28348551513160075,0.35616197183098597,Feature_Selection_Charged_Off
+41,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.05,0.3213203825144481,0.2903526769187425,0.36173708920187797,Feature_Selection_Charged_Off
+42,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.05,0.32486446869848656,0.29263000178665577,0.3672339593114241,Feature_Selection_Charged_Off
+43,DecisionTreeClassifier(random_state=12),,0.05,0.3467438293210485,0.310479744284608,0.39360328638497644,Feature_Selection_Charged_Off
+44,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+45,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+46,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+47,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+48,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+49,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+50,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+51,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+52,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+53,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+54,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+55,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+56,SVC(random_state=12),SelectKBest(k=5),0.05,0.05474131821403261,0.19230769230769232,0.03194444444444444,Feature_Selection_Charged_Off
+57,SVC(random_state=12),SelectKBest(),0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+58,SVC(random_state=12),SelectKBest(k=20),0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+59,SVC(random_state=12),SelectKBest(k=40),0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+60,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+61,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+62,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+63,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+64,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+65,SVC(random_state=12),,0.05,0.0,0.0,0.0,Feature_Selection_Charged_Off
+66,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.2888571558197217,0.779548319327731,0.1780320813771518,Feature_Selection_Charged_Off
+67,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.3094692356319953,0.7967122351332878,0.19330985915492957,Feature_Selection_Charged_Off
+68,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.3115056535349142,0.8481546231546233,0.19197965571205006,Feature_Selection_Charged_Off
+69,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.2914115915284439,0.8855741235888296,0.17523474178403756,Feature_Selection_Charged_Off
+70,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.300178881641988,0.7538130252100841,0.18916275430359936,Feature_Selection_Charged_Off
+71,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.30176468907696474,0.8190248640248641,0.186443661971831,Feature_Selection_Charged_Off
+72,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.30522255068231285,0.9283811716319457,0.1835680751173709,Feature_Selection_Charged_Off
+73,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.28478987936425787,0.964423076923077,0.16829029733959308,Feature_Selection_Charged_Off
+74,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.2712994611709736,0.676984126984127,0.17108763693270737,Feature_Selection_Charged_Off
+75,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.27617950025199434,0.7214399326164032,0.17243740219092332,Feature_Selection_Charged_Off
+76,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.28918063484310824,0.8820354808590103,0.1752738654147105,Feature_Selection_Charged_Off
+77,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.2991362815757374,0.937490440845704,0.1794209702660407,Feature_Selection_Charged_Off
+78,RandomForestClassifier(random_state=12),SelectKBest(k=5),0.05,0.29444201008921567,0.7395965850455014,0.18497652582159624,Feature_Selection_Charged_Off
+79,RandomForestClassifier(random_state=12),SelectKBest(),0.05,0.30275042918036366,0.9262056656793499,0.182179186228482,Feature_Selection_Charged_Off
+80,RandomForestClassifier(random_state=12),SelectKBest(k=20),0.05,0.29031537259525175,0.9395072574484338,0.1724569640062598,Feature_Selection_Charged_Off
+81,RandomForestClassifier(random_state=12),SelectKBest(k=40),0.05,0.2911199328235222,0.9599830316742082,0.17243740219092332,Feature_Selection_Charged_Off
+82,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.05,0.2676362398881685,0.9207702020202021,0.15719874804381845,Feature_Selection_Charged_Off
+83,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.05,0.2782636905808,0.937640056022409,0.16412363067292648,Feature_Selection_Charged_Off
+84,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.05,0.27601572998163604,0.9808333333333333,0.1613849765258216,Feature_Selection_Charged_Off
+85,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.05,0.28599021675253206,0.9780219780219781,0.1683098591549296,Feature_Selection_Charged_Off
+86,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.05,0.28891097514260616,0.9687782805429865,0.17108763693270737,Feature_Selection_Charged_Off
+87,RandomForestClassifier(random_state=12),,0.05,0.2949312450279169,0.9798076923076924,0.17523474178403756,Feature_Selection_Charged_Off
+88,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.09644993661645665,0.31391339869281043,0.058333333333333334,Feature_Selection_Charged_Off
+89,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.02069489715526494,0.16666666666666666,0.011130672926447574,Feature_Selection_Charged_Off
+90,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.06571361153530167,0.20938811188811188,0.04029733959311423,Feature_Selection_Charged_Off
+91,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.08325542375826933,0.2290249104180993,0.05144757433489827,Feature_Selection_Charged_Off
+92,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.025980616458397943,0.36333333333333334,0.01388888888888889,Feature_Selection_Charged_Off
+93,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.025866814400832373,0.215,0.013908450704225351,Feature_Selection_Charged_Off
+94,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.06977861950193426,0.19400537156342107,0.044464006259780905,Feature_Selection_Charged_Off
+95,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.059529813552400127,0.16175360587125293,0.03755868544600939,Feature_Selection_Charged_Off
+96,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.05,0.027430671566989646,0.29,0.015277777777777779,Feature_Selection_Charged_Off
+97,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.05,0.18866049231794127,0.666758102055585,0.11690140845070422,Feature_Selection_Charged_Off
+98,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.05,0.24589724955831072,0.642720524136428,0.15301251956181533,Feature_Selection_Charged_Off
+99,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.05,0.29479958371579984,0.5818681561474903,0.19886541471048513,Feature_Selection_Charged_Off
+100,LogisticRegression(random_state=12),SelectKBest(k=5),0.05,0.007934531222202454,0.13999999999999999,0.004166666666666667,Feature_Selection_Charged_Off
+101,LogisticRegression(random_state=12),SelectKBest(),0.05,0.061574427717963606,0.3492063492063492,0.036111111111111115,Feature_Selection_Charged_Off
+102,LogisticRegression(random_state=12),SelectKBest(k=20),0.05,0.07805854214483712,0.28113636363636363,0.04726134585289515,Feature_Selection_Charged_Off
+103,LogisticRegression(random_state=12),SelectKBest(k=40),0.05,0.0510824658696701,0.12213805759457932,0.03335289514866979,Feature_Selection_Charged_Off
+104,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.05,0.08349342770475228,0.22660714285714284,0.051388888888888894,Feature_Selection_Charged_Off
+105,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.05,0.05243669374104156,0.12289473684210525,0.03333333333333334,Feature_Selection_Charged_Off
+106,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.05,0.020376915376915376,0.175,0.01111111111111111,Feature_Selection_Charged_Off
+107,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.05,0.030570566408589045,0.07800647451963241,0.019464006259780908,Feature_Selection_Charged_Off
+108,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.05,0.08023048806351905,0.17954450520239992,0.05281690140845071,Feature_Selection_Charged_Off
+109,LogisticRegression(random_state=12),,0.05,0.07028914462996538,0.1852701910122097,0.04450312989045383,Feature_Selection_Charged_Off
+110,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.21971058662375445,0.2195092114259946,0.4616784037558686,Feature_Selection_Charged_Off
+111,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.2764354808749986,0.2793195830894163,0.37509780907668233,Feature_Selection_Charged_Off
+112,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.3042916902443489,0.2904582348025011,0.372593896713615,Feature_Selection_Charged_Off
+113,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.3081676887070003,0.2476093406829299,0.45359937402190925,Feature_Selection_Charged_Off
+114,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.1979131756653616,0.3153246836528175,0.31294992175273867,Feature_Selection_Charged_Off
+115,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.2799549101938873,0.2607291951644884,0.36169796557120504,Feature_Selection_Charged_Off
+116,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.2929253046577346,0.22930005142267537,0.4393779342723005,Feature_Selection_Charged_Off
+117,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.2938631837136877,0.2300546501369976,0.432726917057903,Feature_Selection_Charged_Off
+118,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.19331192374047426,0.23139627241677913,0.18785211267605634,Feature_Selection_Charged_Off
+119,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.20739640163384604,0.19994944604435738,0.2546948356807512,Feature_Selection_Charged_Off
+120,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.2086049253156413,0.16960415501381115,0.3145539906103286,Feature_Selection_Charged_Off
+121,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.3001109519827009,0.23545051761577293,0.4410798122065728,Feature_Selection_Charged_Off
+122,MLPClassifier(random_state=12),SelectKBest(k=5),0.1,0.18094851452885327,0.22959183816067422,0.19192097026604066,Feature_Selection_Charged_Off
+123,MLPClassifier(random_state=12),SelectKBest(),0.1,0.2221298013516731,0.260485259395203,0.3074530516431925,Feature_Selection_Charged_Off
+124,MLPClassifier(random_state=12),SelectKBest(k=20),0.1,0.22010246807359296,0.16795839380654679,0.3656885758998435,Feature_Selection_Charged_Off
+125,MLPClassifier(random_state=12),SelectKBest(k=40),0.1,0.27458090099896076,0.24672343052891418,0.3729264475743349,Feature_Selection_Charged_Off
+126,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.1,0.18380772825535402,0.13465391490246714,0.2963028169014085,Feature_Selection_Charged_Off
+127,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.1,0.19702118792529405,0.19910643800433786,0.26144366197183094,Feature_Selection_Charged_Off
+128,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.1,0.21897423934760313,0.1912158207211815,0.30453834115805944,Feature_Selection_Charged_Off
+129,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.1,0.26048234245816343,0.2206600581063208,0.3545774647887324,Feature_Selection_Charged_Off
+130,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.1,0.3382533009661807,0.2708435467852098,0.46318466353677634,Feature_Selection_Charged_Off
+131,MLPClassifier(random_state=12),,0.1,0.33715278424713385,0.273545372796847,0.47151799687010953,Feature_Selection_Charged_Off
+132,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.2690348757427647,0.20039126263966572,0.4102895148669797,Feature_Selection_Charged_Off
+133,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.29384440515392274,0.22195977268084227,0.4367957746478873,Feature_Selection_Charged_Off
+134,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.3054158866400358,0.2286300870908678,0.4602699530516432,Feature_Selection_Charged_Off
+135,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.3036272947358698,0.23254931132662904,0.4394170579029734,Feature_Selection_Charged_Off
+136,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.27515724472612896,0.2055827201511932,0.41723395931142415,Feature_Selection_Charged_Off
+137,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.3026719620411128,0.22917360769192863,0.4477308294209702,Feature_Selection_Charged_Off
+138,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.3065162743685359,0.23535587222028465,0.4408450704225352,Feature_Selection_Charged_Off
+139,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.30001818724256835,0.23075459921848057,0.4311815336463224,Feature_Selection_Charged_Off
+140,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.16180218209114067,0.11907691849369675,0.2543231611893583,Feature_Selection_Charged_Off
+141,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.20369487005747314,0.14740076449854428,0.3311619718309859,Feature_Selection_Charged_Off
+142,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.2990914571687905,0.22561178680403335,0.4464201877934272,Feature_Selection_Charged_Off
+143,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.30536063818042175,0.2275223613669831,0.46594287949921753,Feature_Selection_Charged_Off
+144,DecisionTreeClassifier(random_state=12),SelectKBest(k=5),0.1,0.21136923229169308,0.15469589371825396,0.33382237871674497,Feature_Selection_Charged_Off
+145,DecisionTreeClassifier(random_state=12),SelectKBest(),0.1,0.26272503856793145,0.19613522299198513,0.39917840375586855,Feature_Selection_Charged_Off
+146,DecisionTreeClassifier(random_state=12),SelectKBest(k=20),0.1,0.2540374744872196,0.1895800518136055,0.38523082942097026,Feature_Selection_Charged_Off
+147,DecisionTreeClassifier(random_state=12),SelectKBest(k=40),0.1,0.28396404466522496,0.2119620990661743,0.4324726134585289,Feature_Selection_Charged_Off
+148,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.1,0.2265529781078448,0.16561276228731808,0.36015258215962437,Feature_Selection_Charged_Off
+149,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.1,0.26348292165829396,0.1937758347962745,0.41306729264475744,Feature_Selection_Charged_Off
+150,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.1,0.2742998039987847,0.2019717799897137,0.4298513302034429,Feature_Selection_Charged_Off
+151,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.1,0.2911542277786453,0.2201806651969888,0.4311032863849765,Feature_Selection_Charged_Off
+152,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.1,0.2908841831939462,0.2182815697049143,0.4394170579029734,Feature_Selection_Charged_Off
+153,DecisionTreeClassifier(random_state=12),,0.1,0.33609126725682115,0.2551581476691091,0.4937206572769953,Feature_Selection_Charged_Off
+154,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+155,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+156,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+157,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+158,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+159,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+160,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+161,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+162,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+163,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+164,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+165,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+166,SVC(random_state=12),SelectKBest(k=5),0.1,0.1315561682669437,0.5504079254079255,0.07660406885758998,Feature_Selection_Charged_Off
+167,SVC(random_state=12),SelectKBest(),0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+168,SVC(random_state=12),SelectKBest(k=20),0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+169,SVC(random_state=12),SelectKBest(k=40),0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+170,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+171,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+172,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+173,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+174,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+175,SVC(random_state=12),,0.1,0.0,0.0,0.0,Feature_Selection_Charged_Off
+176,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.3212126827406391,0.42461522146120273,0.26009389671361505,Feature_Selection_Charged_Off
+177,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.3834473573688458,0.5295742333881595,0.30326682316118936,Feature_Selection_Charged_Off
+178,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.4045136188133194,0.6160589598990376,0.30320813771517996,Feature_Selection_Charged_Off
+179,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.42128635332880304,0.6402637424814845,0.31578638497652584,Feature_Selection_Charged_Off
+180,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.34412734699566094,0.4389303585214961,0.285093896713615,Feature_Selection_Charged_Off
+181,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.3813019250178763,0.5418456283114621,0.2976525821596244,Feature_Selection_Charged_Off
+182,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.37949995620377724,0.6305667317327934,0.2740219092331769,Feature_Selection_Charged_Off
+183,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.3564931688590084,0.6740414675879203,0.2434076682316119,Feature_Selection_Charged_Off
+184,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.1577340167064293,0.30511746792107325,0.11115023474178402,Feature_Selection_Charged_Off
+185,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.3013010830081104,0.562517833535771,0.2071987480438185,Feature_Selection_Charged_Off
+186,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.3310071328461929,0.6308482503588733,0.22942097026604072,Feature_Selection_Charged_Off
+187,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.3704929398509003,0.7198273626534496,0.25033255086071987,Feature_Selection_Charged_Off
+188,RandomForestClassifier(random_state=12),SelectKBest(k=5),0.1,0.30374420853527734,0.46263291000133105,0.22672143974960876,Feature_Selection_Charged_Off
+189,RandomForestClassifier(random_state=12),SelectKBest(),0.1,0.3289704969927102,0.5760228392297357,0.23229655712050082,Feature_Selection_Charged_Off
+190,RandomForestClassifier(random_state=12),SelectKBest(k=20),0.1,0.34638502955396555,0.6985199908843969,0.23227699530516435,Feature_Selection_Charged_Off
+191,RandomForestClassifier(random_state=12),SelectKBest(k=40),0.1,0.34841557691363684,0.7685388198757763,0.22676056338028167,Feature_Selection_Charged_Off
+192,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.1,0.3007060482181074,0.6548672748316177,0.19753521126760562,Feature_Selection_Charged_Off
+193,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.1,0.3231830983281124,0.7082351770886566,0.21003521126760566,Feature_Selection_Charged_Off
+194,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.1,0.3481396846286909,0.7968897018761738,0.22396322378716743,Feature_Selection_Charged_Off
+195,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.1,0.35049003788772437,0.7707390419776003,0.22814945226917058,Feature_Selection_Charged_Off
+196,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.1,0.37447189503122924,0.7552906967568846,0.2503716744913928,Feature_Selection_Charged_Off
+197,RandomForestClassifier(random_state=12),,0.1,0.38657037587401716,0.7482027614786235,0.2615023474178404,Feature_Selection_Charged_Off
+198,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.1727420465593971,0.4610984848484848,0.10694444444444444,Feature_Selection_Charged_Off
+199,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.03059800263886428,0.22301587301587303,0.016666666666666663,Feature_Selection_Charged_Off
+200,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.12372473453219186,0.22842255672118372,0.08900625978090768,Feature_Selection_Charged_Off
+201,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.10169137247920448,0.1827408076895139,0.07233959311424101,Feature_Selection_Charged_Off
+202,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.05903443409847091,0.1759754900272142,0.037539123630672924,Feature_Selection_Charged_Off
+203,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.0698992269270907,0.22806776556776556,0.045872456964006256,Feature_Selection_Charged_Off
+204,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.17711405444513473,0.2781819309898459,0.1362480438184664,Feature_Selection_Charged_Off
+205,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.12085341687832621,0.20231392780787943,0.09041471048513303,Feature_Selection_Charged_Off
+206,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.1,0.04489472311666352,0.26833333333333337,0.025215179968701096,Feature_Selection_Charged_Off
+207,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.1,0.16779886140607472,0.43246200177864014,0.1127151799687011,Feature_Selection_Charged_Off
+208,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.1,0.2481366242378063,0.5244369726901255,0.16410406885759,Feature_Selection_Charged_Off
+209,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.1,0.3162470710128251,0.4119729862432102,0.26144366197183105,Feature_Selection_Charged_Off
+210,LogisticRegression(random_state=12),SelectKBest(k=5),0.1,0.07954333774419846,0.27755347593582885,0.04884585289514867,Feature_Selection_Charged_Off
+211,LogisticRegression(random_state=12),SelectKBest(),0.1,0.11731400508903904,0.42047119547119544,0.07226134585289515,Feature_Selection_Charged_Off
+212,LogisticRegression(random_state=12),SelectKBest(k=20),0.1,0.07296340367921775,0.2747387490465294,0.05277777777777777,Feature_Selection_Charged_Off
+213,LogisticRegression(random_state=12),SelectKBest(k=40),0.1,0.1076627825986706,0.16687228070607002,0.0820813771517997,Feature_Selection_Charged_Off
+214,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.1,0.1920801185422493,0.5368362081674776,0.11805555555555555,Feature_Selection_Charged_Off
+215,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.1,0.11138751122142647,0.2879551820728291,0.06944444444444445,Feature_Selection_Charged_Off
+216,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.1,0.025925910264012107,0.09738247863247865,0.015316901408450706,Feature_Selection_Charged_Off
+217,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.1,0.12314954012178154,0.16062835344439033,0.10557511737089202,Feature_Selection_Charged_Off
+218,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.1,0.15127875605792032,0.19413060374578925,0.12799295774647887,Feature_Selection_Charged_Off
+219,LogisticRegression(random_state=12),,0.1,0.19209497157035102,0.24987626817088712,0.15847026604068856,Feature_Selection_Charged_Off
+220,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.21414382801678258,0.14327188581839356,0.5886932707355242,Feature_Selection_Charged_Off
+221,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.26167765295464535,0.17176510425505415,0.6062989045383411,Feature_Selection_Charged_Off
+222,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.2650406228166608,0.1764780821777811,0.6036384976525822,Feature_Selection_Charged_Off
+223,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.2712266186122375,0.17523379638022824,0.6147104851330204,Feature_Selection_Charged_Off
+224,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.2437780660133876,0.1771781062099878,0.5343309859154929,Feature_Selection_Charged_Off
+225,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.2260363396394069,0.14332064604799383,0.6242957746478872,Feature_Selection_Charged_Off
+226,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.2471603272770611,0.15839169953035676,0.6023082942097027,Feature_Selection_Charged_Off
+227,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.252803710962841,0.16883054838709152,0.5897496087636933,Feature_Selection_Charged_Off
+228,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.1740925743152544,0.11189078706514503,0.4775234741784038,Feature_Selection_Charged_Off
+229,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.1718071016058077,0.1099949885230909,0.4796948356807512,Feature_Selection_Charged_Off
+230,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.19126767632224156,0.1259636197856799,0.5133020344287951,Feature_Selection_Charged_Off
+231,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.2592899489554356,0.16639794754482815,0.625880281690141,Feature_Selection_Charged_Off
+232,MLPClassifier(random_state=12),SelectKBest(k=5),0.25,0.22985681163680907,0.1596315482651802,0.449237089201878,Feature_Selection_Charged_Off
+233,MLPClassifier(random_state=12),SelectKBest(),0.25,0.200694766568473,0.13944449234913553,0.4948943661971831,Feature_Selection_Charged_Off
+234,MLPClassifier(random_state=12),SelectKBest(k=20),0.25,0.19420054544498017,0.13120774378904637,0.45647496087636935,Feature_Selection_Charged_Off
+235,MLPClassifier(random_state=12),SelectKBest(k=40),0.25,0.22332346700729064,0.17990785018566638,0.524491392801252,Feature_Selection_Charged_Off
+236,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.25,0.1586082838305173,0.1071846570996069,0.4589006259780907,Feature_Selection_Charged_Off
+237,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.25,0.2008112303137554,0.14857023146875323,0.41142410015649444,Feature_Selection_Charged_Off
+238,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.25,0.1995004356881166,0.13305677849522135,0.506338028169014,Feature_Selection_Charged_Off
+239,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.25,0.24012322914427062,0.15310713419506305,0.5771909233176838,Feature_Selection_Charged_Off
+240,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.25,0.28369045328813514,0.18336216270037206,0.6369327073552425,Feature_Selection_Charged_Off
+241,MLPClassifier(random_state=12),,0.25,0.28236038487962406,0.18763771652938177,0.6146713615023474,Feature_Selection_Charged_Off
+242,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.2518694207125536,0.1597746351330091,0.598141627543036,Feature_Selection_Charged_Off
+243,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.2503026697390987,0.15911488773705237,0.586952269170579,Feature_Selection_Charged_Off
+244,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.25168355952762866,0.16031232846709062,0.5868348982785603,Feature_Selection_Charged_Off
+245,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.2655372973237304,0.169822606138142,0.6104655712050079,Feature_Selection_Charged_Off
+246,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.23917686354764425,0.15154754159436531,0.5688380281690141,Feature_Selection_Charged_Off
+247,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.2522140877030411,0.1612779263658707,0.580027386541471,Feature_Selection_Charged_Off
+248,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.26528684815714143,0.1694067340847435,0.6119718309859155,Feature_Selection_Charged_Off
+249,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.26969390313106323,0.17134316313315445,0.6355633802816902,Feature_Selection_Charged_Off
+250,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.16425504144848407,0.098814179673937,0.4882042253521127,Feature_Selection_Charged_Off
+251,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.17929434589665366,0.11009543248511826,0.4839201877934272,Feature_Selection_Charged_Off
+252,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.25271188547872525,0.15942285116769056,0.6134194053208137,Feature_Selection_Charged_Off
+253,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.2545627397421188,0.16138613982046318,0.6035798122065728,Feature_Selection_Charged_Off
+254,DecisionTreeClassifier(random_state=12),SelectKBest(k=5),0.25,0.18505198241350726,0.11426704607499616,0.48812597809076685,Feature_Selection_Charged_Off
+255,DecisionTreeClassifier(random_state=12),SelectKBest(),0.25,0.2125991903977506,0.13184904701859274,0.5507042253521127,Feature_Selection_Charged_Off
+256,DecisionTreeClassifier(random_state=12),SelectKBest(k=20),0.25,0.2246242168523275,0.14075241136187042,0.5605242566510172,Feature_Selection_Charged_Off
+257,DecisionTreeClassifier(random_state=12),SelectKBest(k=40),0.25,0.22924146286912955,0.14412376634090868,0.5619718309859156,Feature_Selection_Charged_Off
+258,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.25,0.20434592873919716,0.12712699793684248,0.5228677621283255,Feature_Selection_Charged_Off
+259,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.25,0.2052887630330754,0.12716496803895266,0.5340571205007825,Feature_Selection_Charged_Off
+260,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.25,0.2397831844688112,0.1512242373976599,0.5799100156494523,Feature_Selection_Charged_Off
+261,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.25,0.2532352471520717,0.16087606410064,0.5966940532081377,Feature_Selection_Charged_Off
+262,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.25,0.26401670314010606,0.1679894165087066,0.6188771517996872,Feature_Selection_Charged_Off
+263,DecisionTreeClassifier(random_state=12),,0.25,0.2578696056190232,0.16371730391843228,0.6091158059467918,Feature_Selection_Charged_Off
+264,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+265,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+266,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+267,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+268,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+269,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+270,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+271,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+272,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.016219178082191782,0.4,0.008333333333333333,Feature_Selection_Charged_Off
+273,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+274,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+275,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+276,SVC(random_state=12),SelectKBest(k=5),0.25,0.10182470781103992,0.30430839002267573,0.06844679186228482,Feature_Selection_Charged_Off
+277,SVC(random_state=12),SelectKBest(),0.25,0.005333333333333333,0.06666666666666667,0.0027777777777777775,Feature_Selection_Charged_Off
+278,SVC(random_state=12),SelectKBest(k=20),0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+279,SVC(random_state=12),SelectKBest(k=40),0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+280,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+281,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+282,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+283,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+284,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+285,SVC(random_state=12),,0.25,0.0,0.0,0.0,Feature_Selection_Charged_Off
+286,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.3376291595602206,0.24013974467172786,0.5717136150234742,Feature_Selection_Charged_Off
+287,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.3770488541760073,0.2734075235822389,0.6105633802816901,Feature_Selection_Charged_Off
+288,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.40287898876879974,0.300414839899174,0.6160602503912362,Feature_Selection_Charged_Off
+289,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.4082337254419072,0.3022499111858186,0.6328638497652583,Feature_Selection_Charged_Off
+290,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.34313447421190985,0.24421824462539377,0.5785602503912364,Feature_Selection_Charged_Off
+291,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.38754727210756923,0.28760295262645214,0.5980633802816901,Feature_Selection_Charged_Off
+292,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.41428234585518,0.31805601045126186,0.5980242566510172,Feature_Selection_Charged_Off
+293,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.43463858915513676,0.3416272042600907,0.600802034428795,Feature_Selection_Charged_Off
+294,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.20619428898366093,0.14551722106170492,0.35612284820031304,Feature_Selection_Charged_Off
+295,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.2741095809780748,0.20942459772434802,0.40197574334898284,Feature_Selection_Charged_Off
+296,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.3737974198913145,0.2974179775148194,0.5104460093896713,Feature_Selection_Charged_Off
+297,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.41887720961723013,0.33005079860070347,0.5757824726134585,Feature_Selection_Charged_Off
+298,RandomForestClassifier(random_state=12),SelectKBest(k=5),0.25,0.2725263728136019,0.19854255350338704,0.4367370892018779,Feature_Selection_Charged_Off
+299,RandomForestClassifier(random_state=12),SelectKBest(),0.25,0.3301859110677928,0.247418274056737,0.4992370892018779,Feature_Selection_Charged_Off
+300,RandomForestClassifier(random_state=12),SelectKBest(k=20),0.25,0.35359104659748186,0.2806412421248074,0.48530907668231615,Feature_Selection_Charged_Off
+301,RandomForestClassifier(random_state=12),SelectKBest(k=40),0.25,0.41297278328754816,0.3365532684058781,0.5382237871674491,Feature_Selection_Charged_Off
+302,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.25,0.2971013568451243,0.23361391975942078,0.4132629107981221,Feature_Selection_Charged_Off
+303,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.25,0.3573183187133909,0.2804726256045803,0.5008411580594678,Feature_Selection_Charged_Off
+304,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.25,0.394797380578056,0.33308446250366586,0.4867957746478873,Feature_Selection_Charged_Off
+305,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.25,0.42556470369496563,0.34082551466852584,0.5744718309859155,Feature_Selection_Charged_Off
+306,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.25,0.4412059170247386,0.3463846838407595,0.6105829420970267,Feature_Selection_Charged_Off
+307,RandomForestClassifier(random_state=12),,0.25,0.4445654804303814,0.3478194763895803,0.6188380281690141,Feature_Selection_Charged_Off
+308,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.20310728538804187,0.3537547160034801,0.14884585289514868,Feature_Selection_Charged_Off
+309,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.1415595889759639,0.2378894121359536,0.12087245696400625,Feature_Selection_Charged_Off
+310,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.26523469850946624,0.2513150893439967,0.29064945226917055,Feature_Selection_Charged_Off
+311,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.31057724556424987,0.2622147937076863,0.3894170579029734,Feature_Selection_Charged_Off
+312,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.19028430001040678,0.30115892321575766,0.15303208137715182,Feature_Selection_Charged_Off
+313,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.23321941910874458,0.24263993939346157,0.23794992175273869,Feature_Selection_Charged_Off
+314,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.22455734229045105,0.2070333171401074,0.25596635367762127,Feature_Selection_Charged_Off
+315,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.2853510865812173,0.2301704624610778,0.39090375586854453,Feature_Selection_Charged_Off
+316,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.25,0.06932692326906566,0.30374331550802136,0.044464006259780905,Feature_Selection_Charged_Off
+317,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.25,0.17033317937421905,0.2027372509156083,0.16971830985915493,Feature_Selection_Charged_Off
+318,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.25,0.24656101326524701,0.24414681446717695,0.26273474178403755,Feature_Selection_Charged_Off
+319,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.25,0.30292310865238165,0.23762649575330932,0.4242957746478873,Feature_Selection_Charged_Off
+320,LogisticRegression(random_state=12),SelectKBest(k=5),0.25,0.22257586445218108,0.27645123971494046,0.19330985915492957,Feature_Selection_Charged_Off
+321,LogisticRegression(random_state=12),SelectKBest(),0.25,0.16970202663502382,0.18713698370594925,0.17114632237871674,Feature_Selection_Charged_Off
+322,LogisticRegression(random_state=12),SelectKBest(k=20),0.25,0.10530119692270323,0.14939937782163812,0.10033255086071988,Feature_Selection_Charged_Off
+323,LogisticRegression(random_state=12),SelectKBest(k=40),0.25,0.19188251618276125,0.15931131156928854,0.250508607198748,Feature_Selection_Charged_Off
+324,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.25,0.2077662161613903,0.43440202427238317,0.14051251956181535,Feature_Selection_Charged_Off
+325,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.25,0.21111211898147605,0.43588201204421717,0.14332942097026602,Feature_Selection_Charged_Off
+326,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.25,0.09292751740403343,0.129078006957919,0.07924491392801251,Feature_Selection_Charged_Off
+327,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.25,0.25164799918871866,0.215693071728064,0.30457746478873243,Feature_Selection_Charged_Off
+328,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.25,0.2801285372865487,0.20852040235791747,0.4494718309859154,Feature_Selection_Charged_Off
+329,LogisticRegression(random_state=12),,0.25,0.288559840493018,0.21070329478040656,0.464612676056338,Feature_Selection_Charged_Off
+330,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.20607353921606952,0.12303496595031371,0.714651799687011,Feature_Selection_Charged_Off
+331,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.19860582821039924,0.11559038857085265,0.7301056338028169,Feature_Selection_Charged_Off
+332,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.21956728451312846,0.13115714571524334,0.7202464788732394,Feature_Selection_Charged_Off
+333,MLPClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.19017337103234525,0.10898470776007299,0.753755868544601,Feature_Selection_Charged_Off
+334,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.18860702710990268,0.1150620314096364,0.6229655712050078,Feature_Selection_Charged_Off
+335,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.19842266979082374,0.11680280462218087,0.6829616588419406,Feature_Selection_Charged_Off
+336,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.19511958902211374,0.11428209260391183,0.7105633802816902,Feature_Selection_Charged_Off
+337,MLPClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.21914854624292493,0.12856720047908898,0.7481220657276996,Feature_Selection_Charged_Off
+338,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.14057407607770867,0.07912788102413341,0.6912949921752738,Feature_Selection_Charged_Off
+339,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.14314824179143568,0.08212317089243137,0.6286189358372456,Feature_Selection_Charged_Off
+340,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.188473683601843,0.10934170681246017,0.7036971830985916,Feature_Selection_Charged_Off
+341,MLPClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.21186279093692112,0.12532450249422086,0.6981611893583726,Feature_Selection_Charged_Off
+342,MLPClassifier(random_state=12),SelectKBest(k=5),0.5,0.1781280433018499,0.10414506085053217,0.6941118935837245,Feature_Selection_Charged_Off
+343,MLPClassifier(random_state=12),SelectKBest(),0.5,0.15880340118191713,0.09188288858605292,0.6648669796557121,Feature_Selection_Charged_Off
+344,MLPClassifier(random_state=12),SelectKBest(k=20),0.5,0.17502334927889557,0.10114337609374088,0.6801447574334898,Feature_Selection_Charged_Off
+345,MLPClassifier(random_state=12),SelectKBest(k=40),0.5,0.1760109326671817,0.10247867414627206,0.6509780907668231,Feature_Selection_Charged_Off
+346,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.5,0.15139716997623104,0.08818761048046682,0.6590571205007824,Feature_Selection_Charged_Off
+347,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.5,0.1394684216927125,0.0816055941313298,0.559370109546166,Feature_Selection_Charged_Off
+348,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.5,0.15533033390993073,0.08894730017767417,0.6773474178403756,Feature_Selection_Charged_Off
+349,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.5,0.17994642889044254,0.10233357856762684,0.752445226917058,Feature_Selection_Charged_Off
+350,MLPClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.5,0.20809877262343357,0.12087507472489645,0.7606611893583725,Feature_Selection_Charged_Off
+351,MLPClassifier(random_state=12),,0.5,0.2334081580454769,0.1381845939160529,0.7621087636932706,Feature_Selection_Charged_Off
+352,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.1962412848030654,0.11298690611066176,0.7482003129890453,Feature_Selection_Charged_Off
+353,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.19859000517888875,0.11511264851859844,0.7245892018779343,Feature_Selection_Charged_Off
+354,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.20325365745433976,0.11749834057759889,0.7552425665101722,Feature_Selection_Charged_Off
+355,DecisionTreeClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.2133800488065206,0.12346305708458265,0.7870892018779342,Feature_Selection_Charged_Off
+356,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.1992693839112641,0.11527380309522277,0.7357589984350549,Feature_Selection_Charged_Off
+357,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.1973784840980761,0.1142905698835289,0.7245696400625977,Feature_Selection_Charged_Off
+358,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.20712956856175682,0.11974273833478324,0.7676447574334897,Feature_Selection_Charged_Off
+359,DecisionTreeClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.20322506331267837,0.11773324760867757,0.7440336463223789,Feature_Selection_Charged_Off
+360,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.1347973124492017,0.07532557425526752,0.6440140845070423,Feature_Selection_Charged_Off
+361,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.16033014986170316,0.09070451929900222,0.6953442879499218,Feature_Selection_Charged_Off
+362,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.1892377763395135,0.10884215285498142,0.7259780907668232,Feature_Selection_Charged_Off
+363,DecisionTreeClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.20696363346210753,0.1197888031308666,0.763595461658842,Feature_Selection_Charged_Off
+364,DecisionTreeClassifier(random_state=12),SelectKBest(k=5),0.5,0.16451755791854786,0.09307644138374305,0.709330985915493,Feature_Selection_Charged_Off
+365,DecisionTreeClassifier(random_state=12),SelectKBest(),0.5,0.1664983514979957,0.09472061083333921,0.6885367762128326,Feature_Selection_Charged_Off
+366,DecisionTreeClassifier(random_state=12),SelectKBest(k=20),0.5,0.16935901426313657,0.09641570913041929,0.6967527386541471,Feature_Selection_Charged_Off
+367,DecisionTreeClassifier(random_state=12),SelectKBest(k=40),0.5,0.194801690068498,0.11215728690155943,0.7442097026604069,Feature_Selection_Charged_Off
+368,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.5,0.1625846590654802,0.09212068372872587,0.6968896713615024,Feature_Selection_Charged_Off
+369,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.5,0.1747008409646321,0.09984061600150922,0.7009976525821597,Feature_Selection_Charged_Off
+370,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.5,0.18549665711952873,0.10634891172358274,0.7287754303599374,Feature_Selection_Charged_Off
+371,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.5,0.21361472132820597,0.12388777780306817,0.7775039123630674,Feature_Selection_Charged_Off
+372,DecisionTreeClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.5,0.20226365604013957,0.11702494125726734,0.7482589984350547,Feature_Selection_Charged_Off
+373,DecisionTreeClassifier(random_state=12),,0.5,0.2055501253844234,0.11905172629421272,0.7537363067292644,Feature_Selection_Charged_Off
+374,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.09781659510403759,0.05153197897128462,0.9721830985915492,Feature_Selection_Charged_Off
+375,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.10219824861392353,0.053941846194522934,0.9805555555555555,Feature_Selection_Charged_Off
+376,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.09787477361576633,0.051543351070206765,0.9749804381846635,Feature_Selection_Charged_Off
+377,SVC(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.09398151257237505,0.0493969567505488,0.9791666666666666,Feature_Selection_Charged_Off
+378,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.09380233036719458,0.051818151421857715,0.8291275430359937,Feature_Selection_Charged_Off
+379,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.09328386785405536,0.04901929513089368,0.969424882629108,Feature_Selection_Charged_Off
+380,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.09544884856230262,0.05022122882466361,0.9666471048513301,Feature_Selection_Charged_Off
+381,SVC(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.0955664562366522,0.05030394136689483,0.9610524256651016,Feature_Selection_Charged_Off
+382,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.09608197069846627,0.05875792765538703,0.8680359937402191,Feature_Selection_Charged_Off
+383,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.09124158081437066,0.04792719574982644,0.959663536776213,Feature_Selection_Charged_Off
+384,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.09671460735588075,0.05093761415844346,0.9666275430359939,Feature_Selection_Charged_Off
+385,SVC(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.09951833682242492,0.05250522575387832,0.9540688575899843,Feature_Selection_Charged_Off
+386,SVC(random_state=12),SelectKBest(k=5),0.5,0.10574647466246008,0.056182114261501506,0.8999021909233177,Feature_Selection_Charged_Off
+387,SVC(random_state=12),SelectKBest(),0.5,0.10477865866099953,0.05556850008039976,0.9179773082942096,Feature_Selection_Charged_Off
+388,SVC(random_state=12),SelectKBest(k=20),0.5,0.10341067408055553,0.05478681476964372,0.9235524256651017,Feature_Selection_Charged_Off
+389,SVC(random_state=12),SelectKBest(k=40),0.5,0.10115305890944178,0.05346564398132907,0.9402582159624414,Feature_Selection_Charged_Off
+390,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.5,0.09638091307286907,0.0507728404366937,0.9596439749608763,Feature_Selection_Charged_Off
+391,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.5,0.09830036392177474,0.05181373983970633,0.9610328638497652,Feature_Selection_Charged_Off
+392,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.5,0.09353814356873875,0.04916533044090622,0.9610524256651016,Feature_Selection_Charged_Off
+393,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.5,0.09466891015577926,0.04977573964001581,0.9735719874804383,Feature_Selection_Charged_Off
+394,SVC(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.5,0.09766956226838833,0.05145878635067227,0.9652777777777777,Feature_Selection_Charged_Off
+395,SVC(random_state=12),,0.5,0.09015724760439126,0.04728128271150306,0.974960876369327,Feature_Selection_Charged_Off
+396,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.24631484005617327,0.1451921814402466,0.8121870109546165,Feature_Selection_Charged_Off
+397,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.26690345128620124,0.15886335082599304,0.8400430359937403,Feature_Selection_Charged_Off
+398,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.2807565116301645,0.1681977312497043,0.8525039123630673,Feature_Selection_Charged_Off
+399,RandomForestClassifier(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.290173529712409,0.1746558303382502,0.860856807511737,Feature_Selection_Charged_Off
+400,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.24414177454801206,0.14395106533985708,0.8053012519561816,Feature_Selection_Charged_Off
+401,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.2703262073307483,0.16126528088165246,0.8386737089201878,Feature_Selection_Charged_Off
+402,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.28066004007244794,0.168563784106402,0.8441510172143974,Feature_Selection_Charged_Off
+403,RandomForestClassifier(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.2932077321996508,0.1766033473776025,0.8663928012519563,Feature_Selection_Charged_Off
+404,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.16604711604767805,0.09440632541826163,0.6898278560250392,Feature_Selection_Charged_Off
+405,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.22895599349822934,0.13365841192404132,0.8024647887323944,Feature_Selection_Charged_Off
+406,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.26765790748010615,0.16033184956114818,0.8122456964006259,Feature_Selection_Charged_Off
+407,RandomForestClassifier(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.2894938935603161,0.1740753129686522,0.8609350547730829,Feature_Selection_Charged_Off
+408,RandomForestClassifier(random_state=12),SelectKBest(k=5),0.5,0.18894468004095305,0.10850612116235128,0.7371087636932707,Feature_Selection_Charged_Off
+409,RandomForestClassifier(random_state=12),SelectKBest(),0.5,0.22086975207845594,0.12943898129891895,0.7551838810641628,Feature_Selection_Charged_Off
+410,RandomForestClassifier(random_state=12),SelectKBest(k=20),0.5,0.24313470349128025,0.14313155028890215,0.8080007824726134,Feature_Selection_Charged_Off
+411,RandomForestClassifier(random_state=12),SelectKBest(k=40),0.5,0.2638557143223027,0.15689248204625408,0.8344679186228483,Feature_Selection_Charged_Off
+412,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.5,0.2153595601210938,0.1251325354302799,0.78302034428795,Feature_Selection_Charged_Off
+413,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.5,0.22746802710416122,0.13325632052032055,0.7886345852895149,Feature_Selection_Charged_Off
+414,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.5,0.26982669657640196,0.16044042073426004,0.8497652582159624,Feature_Selection_Charged_Off
+415,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.5,0.2798003494809481,0.16722613003102743,0.859507042253521,Feature_Selection_Charged_Off
+416,RandomForestClassifier(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.5,0.2798479743030911,0.16723907255852025,0.8580594679186229,Feature_Selection_Charged_Off
+417,RandomForestClassifier(random_state=12),,0.5,0.28900967524342314,0.17338006716795093,0.8706377151799687,Feature_Selection_Charged_Off
+418,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.16618030544510068,0.09423062431306602,0.731631455399061,Feature_Selection_Charged_Off
+419,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.1547376078491268,0.08549023779098879,0.8275821596244131,Feature_Selection_Charged_Off
+420,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.21586505333050715,0.1301737117130108,0.7786189358372456,Feature_Selection_Charged_Off
+421,LogisticRegression(random_state=12),"RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.22920654124906098,0.13467357467392654,0.7760758998435056,Feature_Selection_Charged_Off
+422,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.13814502901145992,0.07861472909544003,0.7329420970266041,Feature_Selection_Charged_Off
+423,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.16102280532314864,0.0920449268574934,0.7079616588419405,Feature_Selection_Charged_Off
+424,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.2267008354189831,0.13853115384612763,0.6620305164319249,Feature_Selection_Charged_Off
+425,LogisticRegression(random_state=12),"RFE(estimator=DecisionTreeClassifier(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.1965353371196318,0.11477561854763463,0.6966158059467918,Feature_Selection_Charged_Off
+426,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=5,
+    step=5)",0.5,0.12023025563507599,0.06482606551891015,0.8415297339593113,Feature_Selection_Charged_Off
+427,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=10,
+    step=5)",0.5,0.13632889762298236,0.0786523922967593,0.5783450704225352,Feature_Selection_Charged_Off
+428,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=20,
+    step=5)",0.5,0.1972682086611955,0.11586396130991902,0.6842723004694835,Feature_Selection_Charged_Off
+429,LogisticRegression(random_state=12),"RFE(estimator=LogisticRegression(random_state=12), n_features_to_select=40,
+    step=5)",0.5,0.20054177554645092,0.11665709781312053,0.7177034428794993,Feature_Selection_Charged_Off
+430,LogisticRegression(random_state=12),SelectKBest(k=5),0.5,0.15162240615154743,0.08523158320646734,0.702406103286385,Feature_Selection_Charged_Off
+431,LogisticRegression(random_state=12),SelectKBest(),0.5,0.14696725520211534,0.08258581667748949,0.6857198748043819,Feature_Selection_Charged_Off
+432,LogisticRegression(random_state=12),SelectKBest(k=20),0.5,0.15805283248661287,0.0893740873414344,0.730066510172144,Feature_Selection_Charged_Off
+433,LogisticRegression(random_state=12),SelectKBest(k=40),0.5,0.19114646668466279,0.11027371546965348,0.7371283255086072,Feature_Selection_Charged_Off
+434,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.1),0.5,0.1506692933482905,0.11696929047809282,0.5239632237871674,Feature_Selection_Charged_Off
+435,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.2),0.5,0.11220961327392591,0.06029423300432986,0.8120892018779342,Feature_Selection_Charged_Off
+436,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.5),0.5,0.1530239224548788,0.09037317863874712,0.609076682316119,Feature_Selection_Charged_Off
+437,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.8),0.5,0.17958166656137065,0.103638577006064,0.6954029733959312,Feature_Selection_Charged_Off
+438,LogisticRegression(random_state=12),CorrelationMatrixTransformer(corr=0.95),0.5,0.21487532107175206,0.12468499363457394,0.7816705790297339,Feature_Selection_Charged_Off
+439,LogisticRegression(random_state=12),,0.5,0.21771301065717003,0.12674959765768645,0.7732394366197183,Feature_Selection_Charged_Off

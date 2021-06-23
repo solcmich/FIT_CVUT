@@ -1,0 +1,126 @@
+,classifier,preprocessor,prior,f1,precision,recall,dataset_description
+0,MLPClassifier(random_state=12),SimpleImputer(),0.01,0.26195487103029796,0.24691544916075436,0.325,Imputation
+1,MLPClassifier(random_state=12),SimpleImputer(strategy='median'),0.01,0.14461470074473173,0.135698714471093,0.1893939393939394,Imputation
+2,MLPClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.01,0.11174860282277162,0.13456882591093117,0.13636363636363638,Imputation
+3,MLPClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.01,0.16003838031470236,0.14377907302480358,0.20833333333333331,Imputation
+4,MLPClassifier(random_state=12),,0.01,,,,Imputation
+5,DecisionTreeClassifier(random_state=12),SimpleImputer(),0.01,0.17470297175942334,0.1371814831195636,0.2446969696969697,Imputation
+6,DecisionTreeClassifier(random_state=12),SimpleImputer(strategy='median'),0.01,0.1240286195286195,0.09957337712056577,0.17196969696969697,Imputation
+7,DecisionTreeClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.01,0.10452334768124243,0.08193332868255469,0.15454545454545454,Imputation
+8,DecisionTreeClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.01,0.1059362754927271,0.0825817559633349,0.15378787878787875,Imputation
+9,DecisionTreeClassifier(random_state=12),,0.01,,,,Imputation
+10,SVC(random_state=12),SimpleImputer(),0.01,0.0,0.0,0.0,Imputation
+11,SVC(random_state=12),SimpleImputer(strategy='median'),0.01,0.0,0.0,0.0,Imputation
+12,SVC(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.01,0.0,0.0,0.0,Imputation
+13,SVC(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.01,0.0,0.0,0.0,Imputation
+14,SVC(random_state=12),,0.01,,,,Imputation
+15,RandomForestClassifier(random_state=12),SimpleImputer(),0.01,0.03333333333333334,0.2,0.01818181818181818,Imputation
+16,RandomForestClassifier(random_state=12),SimpleImputer(strategy='median'),0.01,0.03333333333333334,0.2,0.01818181818181818,Imputation
+17,RandomForestClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.01,0.05,0.3,0.02727272727272727,Imputation
+18,RandomForestClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.01,0.04743589743589744,0.2,0.02727272727272727,Imputation
+19,RandomForestClassifier(random_state=12),,0.01,,,,Imputation
+20,LogisticRegression(random_state=12),SimpleImputer(),0.01,0.042717086834733894,0.15,0.02727272727272727,Imputation
+21,LogisticRegression(random_state=12),SimpleImputer(strategy='median'),0.01,0.0,0.0,0.0,Imputation
+22,LogisticRegression(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.01,0.10411440593067522,0.10266306792622582,0.10757575757575757,Imputation
+23,LogisticRegression(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.01,0.1038435218480985,0.10984126984126982,0.1,Imputation
+24,LogisticRegression(random_state=12),,0.01,,,,Imputation
+25,MLPClassifier(random_state=12),SimpleImputer(),0.05,0.11110525874867276,0.06424090391539454,0.4242424242424242,Imputation
+26,MLPClassifier(random_state=12),SimpleImputer(strategy='median'),0.05,0.0898342724906577,0.0540043686458986,0.3454545454545455,Imputation
+27,MLPClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.05,0.10999269349932872,0.06552958933961114,0.3689393939393939,Imputation
+28,MLPClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.05,0.10331474936463207,0.06581119334300671,0.3053030303030303,Imputation
+29,MLPClassifier(random_state=12),,0.05,,,,Imputation
+30,DecisionTreeClassifier(random_state=12),SimpleImputer(),0.05,0.07638307457954706,0.04362364557931179,0.3083333333333333,Imputation
+31,DecisionTreeClassifier(random_state=12),SimpleImputer(strategy='median'),0.05,0.07023495793526383,0.04102584921710451,0.25227272727272726,Imputation
+32,DecisionTreeClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.05,0.08445177093786255,0.04853867089409385,0.33333333333333337,Imputation
+33,DecisionTreeClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.05,0.08000880021092678,0.045693102120566695,0.325,Imputation
+34,DecisionTreeClassifier(random_state=12),,0.05,,,,Imputation
+35,SVC(random_state=12),SimpleImputer(),0.05,0.0,0.0,0.0,Imputation
+36,SVC(random_state=12),SimpleImputer(strategy='median'),0.05,0.0,0.0,0.0,Imputation
+37,SVC(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.05,0.0,0.0,0.0,Imputation
+38,SVC(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.05,0.0,0.0,0.0,Imputation
+39,SVC(random_state=12),,0.05,,,,Imputation
+40,RandomForestClassifier(random_state=12),SimpleImputer(),0.05,0.12692307692307694,0.6,0.07196969696969698,Imputation
+41,RandomForestClassifier(random_state=12),SimpleImputer(strategy='median'),0.05,0.14358974358974358,0.7,0.08106060606060607,Imputation
+42,RandomForestClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.05,0.19377289377289378,0.6666666666666666,0.11742424242424243,Imputation
+43,RandomForestClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.05,0.1684981684981685,0.65,0.09924242424242424,Imputation
+44,RandomForestClassifier(random_state=12),,0.05,,,,Imputation
+45,LogisticRegression(random_state=12),SimpleImputer(),0.05,0.10153845700541517,0.0826601510169285,0.13636363636363635,Imputation
+46,LogisticRegression(random_state=12),SimpleImputer(strategy='median'),0.05,0.12292530702606223,0.09994834087481146,0.1621212121212121,Imputation
+47,LogisticRegression(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.05,0.12002236040635132,0.08220530695733536,0.2265151515151515,Imputation
+48,LogisticRegression(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.05,0.12760568193062885,0.08806699720315281,0.24166666666666664,Imputation
+49,LogisticRegression(random_state=12),,0.05,,,,Imputation
+50,MLPClassifier(random_state=12),SimpleImputer(),0.1,0.07567222223394411,0.04122463137644047,0.4787878787878788,Imputation
+51,MLPClassifier(random_state=12),SimpleImputer(strategy='median'),0.1,0.07608429713554202,0.04210739644250028,0.4333333333333333,Imputation
+52,MLPClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.1,0.07424131702017558,0.040994352176311824,0.4053030303030303,Imputation
+53,MLPClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.1,0.07487342449849652,0.04045577608524607,0.5409090909090909,Imputation
+54,MLPClassifier(random_state=12),,0.1,,,,Imputation
+55,DecisionTreeClassifier(random_state=12),SimpleImputer(),0.1,0.05549329514599734,0.029997867331596827,0.3795454545454545,Imputation
+56,DecisionTreeClassifier(random_state=12),SimpleImputer(strategy='median'),0.1,0.06452853289092056,0.0351240469687605,0.4045454545454545,Imputation
+57,DecisionTreeClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.1,0.07159765337669897,0.03886886748619672,0.4606060606060606,Imputation
+58,DecisionTreeClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.1,0.060394466171630745,0.032960319746049696,0.3628787878787879,Imputation
+59,DecisionTreeClassifier(random_state=12),,0.1,,,,Imputation
+60,SVC(random_state=12),SimpleImputer(),0.1,0.0,0.0,0.0,Imputation
+61,SVC(random_state=12),SimpleImputer(strategy='median'),0.1,0.0,0.0,0.0,Imputation
+62,SVC(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.1,0.0,0.0,0.0,Imputation
+63,SVC(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.1,0.0,0.0,0.0,Imputation
+64,SVC(random_state=12),,0.1,,,,Imputation
+65,RandomForestClassifier(random_state=12),SimpleImputer(),0.1,0.2341025641025641,0.5216666666666666,0.15378787878787878,Imputation
+66,RandomForestClassifier(random_state=12),SimpleImputer(strategy='median'),0.1,0.2797705802968961,0.5669047619047618,0.1893939393939394,Imputation
+67,RandomForestClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.1,0.2837100103199175,0.4225,0.21666666666666665,Imputation
+68,RandomForestClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.1,0.2984126984126984,0.47023809523809523,0.2265151515151515,Imputation
+69,RandomForestClassifier(random_state=12),,0.1,,,,Imputation
+70,LogisticRegression(random_state=12),SimpleImputer(),0.1,0.09635095340257908,0.0591308792315547,0.27045454545454545,Imputation
+71,LogisticRegression(random_state=12),SimpleImputer(strategy='median'),0.1,0.14032374490150273,0.09295686816119156,0.33333333333333337,Imputation
+72,LogisticRegression(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.1,0.141425492307474,0.08519303762922101,0.4318181818181818,Imputation
+73,LogisticRegression(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.1,0.12460516060516061,0.07395701962733463,0.4045454545454545,Imputation
+74,LogisticRegression(random_state=12),,0.1,,,,Imputation
+75,MLPClassifier(random_state=12),SimpleImputer(),0.25,0.04087158716700036,0.0213072295452991,0.5053030303030304,Imputation
+76,MLPClassifier(random_state=12),SimpleImputer(strategy='median'),0.25,0.05302330958734619,0.027773787419631647,0.5946969696969696,Imputation
+77,MLPClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.25,0.051391519254080864,0.02684176371546664,0.6121212121212121,Imputation
+78,MLPClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.25,0.05013873486781948,0.026296116834909,0.5590909090909091,Imputation
+79,MLPClassifier(random_state=12),,0.25,,,,Imputation
+80,DecisionTreeClassifier(random_state=12),SimpleImputer(),0.25,0.04120253278098534,0.021492172823593583,0.5053030303030304,Imputation
+81,DecisionTreeClassifier(random_state=12),SimpleImputer(strategy='median'),0.25,0.04684340046282344,0.02443772105536715,0.5696969696969697,Imputation
+82,DecisionTreeClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.25,0.04643110499677652,0.0242188904597002,0.5681818181818181,Imputation
+83,DecisionTreeClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.25,0.05223442501421962,0.02723485292108426,0.6416666666666668,Imputation
+84,DecisionTreeClassifier(random_state=12),,0.25,,,,Imputation
+85,SVC(random_state=12),SimpleImputer(),0.25,0.009999999999999998,0.01111111111111111,0.00909090909090909,Imputation
+86,SVC(random_state=12),SimpleImputer(strategy='median'),0.25,0.0,0.0,0.0,Imputation
+87,SVC(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.25,0.0,0.0,0.0,Imputation
+88,SVC(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.25,0.0,0.0,0.0,Imputation
+89,SVC(random_state=12),,0.25,,,,Imputation
+90,RandomForestClassifier(random_state=12),SimpleImputer(),0.25,0.19435595422357693,0.12867336764636633,0.4340909090909091,Imputation
+91,RandomForestClassifier(random_state=12),SimpleImputer(strategy='median'),0.25,0.18098077204777746,0.11381206666090386,0.4787878787878788,Imputation
+92,RandomForestClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.25,0.19708860502618447,0.1234080298786181,0.5242424242424242,Imputation
+93,RandomForestClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.25,0.18594639679820196,0.11306398898031252,0.5507575757575758,Imputation
+94,RandomForestClassifier(random_state=12),,0.25,,,,Imputation
+95,LogisticRegression(random_state=12),SimpleImputer(),0.25,0.053319012185179496,0.028062559631988337,0.5393939393939394,Imputation
+96,LogisticRegression(random_state=12),SimpleImputer(strategy='median'),0.25,0.057280930934628084,0.03044615149571881,0.5045454545454545,Imputation
+97,LogisticRegression(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.25,0.07271527093171104,0.03886742398333541,0.5765151515151515,Imputation
+98,LogisticRegression(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.25,0.06800713142496981,0.036253876773587525,0.5590909090909091,Imputation
+99,LogisticRegression(random_state=12),,0.25,,,,Imputation
+100,MLPClassifier(random_state=12),SimpleImputer(),0.5,0.0353392513745233,0.018112892632778457,0.7295454545454546,Imputation
+101,MLPClassifier(random_state=12),SimpleImputer(strategy='median'),0.5,0.033167430153937416,0.017031330622060442,0.6583333333333333,Imputation
+102,MLPClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.5,0.03928718832383944,0.020223356121656814,0.7204545454545455,Imputation
+103,MLPClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.5,0.03504804882817286,0.01811341293525292,0.5946969696969697,Imputation
+104,MLPClassifier(random_state=12),,0.5,,,,Imputation
+105,DecisionTreeClassifier(random_state=12),SimpleImputer(),0.5,0.03470358055832277,0.0177463179104086,0.7954545454545455,Imputation
+106,DecisionTreeClassifier(random_state=12),SimpleImputer(strategy='median'),0.5,0.030165976582998483,0.01542181377015551,0.6954545454545455,Imputation
+107,DecisionTreeClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.5,0.030133916047878396,0.015398921738138846,0.7045454545454546,Imputation
+108,DecisionTreeClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.5,0.03290420088448042,0.016821543384291072,0.7560606060606061,Imputation
+109,DecisionTreeClassifier(random_state=12),,0.5,,,,Imputation
+110,SVC(random_state=12),SimpleImputer(),0.5,0.016817447260522915,0.00848166722896677,0.990909090909091,Imputation
+111,SVC(random_state=12),SimpleImputer(strategy='median'),0.5,0.015896962962656157,0.008013323060989985,0.990909090909091,Imputation
+112,SVC(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.5,0.01622510372356697,0.008180462675534,0.990909090909091,Imputation
+113,SVC(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.5,0.01563531128417344,0.007882411390521104,0.9651515151515151,Imputation
+114,SVC(random_state=12),,0.5,,,,Imputation
+115,RandomForestClassifier(random_state=12),SimpleImputer(),0.5,0.0475894866766133,0.024507175969182376,0.8287878787878789,Imputation
+116,RandomForestClassifier(random_state=12),SimpleImputer(strategy='median'),0.5,0.051584782922299045,0.026629389040270852,0.8378787878787879,Imputation
+117,RandomForestClassifier(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.5,0.04851137761824316,0.025051308369519708,0.7666666666666667,Imputation
+118,RandomForestClassifier(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.5,0.05179367235430624,0.026777161469083544,0.8022727272727274,Imputation
+119,RandomForestClassifier(random_state=12),,0.5,,,,Imputation
+120,LogisticRegression(random_state=12),SimpleImputer(),0.5,0.03561050842110363,0.018237967840307765,0.7553030303030304,Imputation
+121,LogisticRegression(random_state=12),SimpleImputer(strategy='median'),0.5,0.037044465752360645,0.018987026471103417,0.7659090909090909,Imputation
+122,LogisticRegression(random_state=12),"SimpleImputer(fill_value=0, strategy='constant')",0.5,0.04076454992194513,0.02093731782668569,0.7757575757575758,Imputation
+123,LogisticRegression(random_state=12),"SimpleImputer(fill_value=-1, strategy='constant')",0.5,0.040833080687168836,0.020940220403503546,0.8196969696969696,Imputation
+124,LogisticRegression(random_state=12),,0.5,,,,Imputation

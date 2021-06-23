@@ -1,0 +1,181 @@
+,classifier,preprocessor,prior,f1,precision,recall,dataset_description
+0,MLPClassifier(random_state=12),RobustScaler(),0.05,0.3255542679519296,0.40958237537968395,0.2794992175273866,Transformations - Charged off
+1,MLPClassifier(random_state=12),MaxAbsScaler(),0.05,0.28417935628301805,0.7202764349887112,0.17799295774647889,Transformations - Charged off
+2,MLPClassifier(random_state=12),Normalizer(),0.05,0.39532186482704745,0.5792143054377098,0.3017801251956181,Transformations - Charged off
+3,MLPClassifier(random_state=12),KBinsDiscretizer(),0.05,0.4121371040332774,0.5683582422493713,0.32689749608763696,Transformations - Charged off
+4,MLPClassifier(random_state=12),StandardScaler(),0.05,0.3581956191649424,0.6729808368595555,0.2476525821596244,Transformations - Charged off
+5,MLPClassifier(random_state=12),0,0.05,0.3200069150602639,0.3290290516343181,0.3601721439749609,Transformations - Charged off
+6,DecisionTreeClassifier(random_state=12),RobustScaler(),0.05,0.3380321600301037,0.30698449500120023,0.3768974960876369,Transformations - Charged off
+7,DecisionTreeClassifier(random_state=12),MaxAbsScaler(),0.05,0.3167646447604585,0.28937151370455594,0.3504694835680751,Transformations - Charged off
+8,DecisionTreeClassifier(random_state=12),Normalizer(),0.05,0.3444765800454244,0.3137870985618278,0.3839201877934272,Transformations - Charged off
+9,DecisionTreeClassifier(random_state=12),KBinsDiscretizer(),0.05,0.3104594368188799,0.2711282854156675,0.3642801251956181,Transformations - Charged off
+10,DecisionTreeClassifier(random_state=12),StandardScaler(),0.05,0.33715129154436496,0.30242493421612304,0.3825117370892018,Transformations - Charged off
+11,DecisionTreeClassifier(random_state=12),0,0.05,0.31578086004206496,0.2917203618550597,0.3463223787167449,Transformations - Charged off
+12,SVC(random_state=12),RobustScaler(),0.05,0.0,0.0,0.0,Transformations - Charged off
+13,SVC(random_state=12),MaxAbsScaler(),0.05,0.25793795897699223,0.9916666666666666,0.1488262910798122,Transformations - Charged off
+14,SVC(random_state=12),Normalizer(),0.05,0.2582612031732897,1.0,0.1488262910798122,Transformations - Charged off
+15,SVC(random_state=12),KBinsDiscretizer(),0.05,0.2582862894184335,0.9565201465201464,0.1502151799687011,Transformations - Charged off
+16,SVC(random_state=12),StandardScaler(),0.05,0.02222222222222222,0.1,0.0125,Transformations - Charged off
+17,SVC(random_state=12),0,0.05,0.0,0.0,0.0,Transformations - Charged off
+18,RandomForestClassifier(random_state=12),RobustScaler(),0.05,0.2951062025903539,0.9588553113553114,0.17525430359937402,Transformations - Charged off
+19,RandomForestClassifier(random_state=12),MaxAbsScaler(),0.05,0.29289659087485753,0.965521978021978,0.17386541471048514,Transformations - Charged off
+20,RandomForestClassifier(random_state=12),Normalizer(),0.05,0.2956663665353719,0.978974358974359,0.17523474178403756,Transformations - Charged off
+21,RandomForestClassifier(random_state=12),KBinsDiscretizer(),0.05,0.2819984152251335,0.9785714285714286,0.16551251956181534,Transformations - Charged off
+22,RandomForestClassifier(random_state=12),StandardScaler(),0.05,0.29315532347161644,0.9715901745313508,0.17386541471048514,Transformations - Charged off
+23,RandomForestClassifier(random_state=12),0,0.05,0.283915650006294,0.9289112276612276,0.16832942097026607,Transformations - Charged off
+24,LogisticRegression(random_state=12),RobustScaler(),0.05,0.15759589801137686,0.12421165524993967,0.21699921752738652,Transformations - Charged off
+25,LogisticRegression(random_state=12),MaxAbsScaler(),0.05,0.0,0.0,0.0,Transformations - Charged off
+26,LogisticRegression(random_state=12),Normalizer(),0.05,0.2569305994627186,0.9697802197802196,0.1488262910798122,Transformations - Charged off
+27,LogisticRegression(random_state=12),KBinsDiscretizer(),0.05,0.37243773416512804,0.4800419476121071,0.3059663536776213,Transformations - Charged off
+28,LogisticRegression(random_state=12),StandardScaler(),0.05,0.2571699448538799,0.7226434676434677,0.15715962441314552,Transformations - Charged off
+29,LogisticRegression(random_state=12),0,0.05,0.08766067688842102,0.21263681546862329,0.0570226917057903,Transformations - Charged off
+30,MLPClassifier(random_state=12),RobustScaler(),0.1,0.2962139880355461,0.2720802578988419,0.3338615023474178,Transformations - Charged off
+31,MLPClassifier(random_state=12),MaxAbsScaler(),0.1,0.3000436950708699,0.5061519118168197,0.2169600938967136,Transformations - Charged off
+32,MLPClassifier(random_state=12),Normalizer(),0.1,0.4188050566971957,0.4276311110012005,0.41306729264475744,Transformations - Charged off
+33,MLPClassifier(random_state=12),KBinsDiscretizer(),0.1,0.4213933938440217,0.3957735447076458,0.4534820031298905,Transformations - Charged off
+34,MLPClassifier(random_state=12),StandardScaler(),0.1,0.38508434342873016,0.4783421300403383,0.3255281690140845,Transformations - Charged off
+35,MLPClassifier(random_state=12),0,0.1,0.3323412294887612,0.28015752695078033,0.4535015649452269,Transformations - Charged off
+36,DecisionTreeClassifier(random_state=12),RobustScaler(),0.1,0.3141948126666638,0.23789213612886745,0.4645148669796557,Transformations - Charged off
+37,DecisionTreeClassifier(random_state=12),MaxAbsScaler(),0.1,0.2878525606830955,0.21525462908203385,0.4366197183098592,Transformations - Charged off
+38,DecisionTreeClassifier(random_state=12),Normalizer(),0.1,0.2994407085565185,0.2292495929135201,0.43260954616588415,Transformations - Charged off
+39,DecisionTreeClassifier(random_state=12),KBinsDiscretizer(),0.1,0.2809252002614051,0.206746801744256,0.4395735524256652,Transformations - Charged off
+40,DecisionTreeClassifier(random_state=12),StandardScaler(),0.1,0.29041891528336083,0.21963244981192287,0.4310837245696401,Transformations - Charged off
+41,DecisionTreeClassifier(random_state=12),0,0.1,0.2878988023806069,0.21930985024709124,0.4213615023474178,Transformations - Charged off
+42,SVC(random_state=12),RobustScaler(),0.1,0.0,0.0,0.0,Transformations - Charged off
+43,SVC(random_state=12),MaxAbsScaler(),0.1,0.25695118601059075,0.9678571428571427,0.1488262910798122,Transformations - Charged off
+44,SVC(random_state=12),Normalizer(),0.1,0.2576375320180806,0.9846153846153848,0.1488262910798122,Transformations - Charged off
+45,SVC(random_state=12),KBinsDiscretizer(),0.1,0.3151618938654036,0.8416152081455286,0.19610719874804375,Transformations - Charged off
+46,SVC(random_state=12),StandardScaler(),0.1,0.2516067293224898,0.8430601343101344,0.1488262910798122,Transformations - Charged off
+47,SVC(random_state=12),0,0.1,0.0,0.0,0.0,Transformations - Charged off
+48,RandomForestClassifier(random_state=12),RobustScaler(),0.1,0.375193875305451,0.8112705627705628,0.2461854460093897,Transformations - Charged off
+49,RandomForestClassifier(random_state=12),MaxAbsScaler(),0.1,0.3718244731559837,0.7543568139935418,0.24902190923317685,Transformations - Charged off
+50,RandomForestClassifier(random_state=12),Normalizer(),0.1,0.3755828862997058,0.7309738570608135,0.2544796557120501,Transformations - Charged off
+51,RandomForestClassifier(random_state=12),KBinsDiscretizer(),0.1,0.3132055057051105,0.9019281045751631,0.19053208137715175,Transformations - Charged off
+52,RandomForestClassifier(random_state=12),StandardScaler(),0.1,0.3760436206314349,0.7579211035689183,0.2517605633802817,Transformations - Charged off
+53,RandomForestClassifier(random_state=12),0,0.1,0.3913350163345905,0.7246324435792202,0.2697965571205008,Transformations - Charged off
+54,LogisticRegression(random_state=12),RobustScaler(),0.1,0.1705474304355876,0.12744216420903692,0.26011345852895146,Transformations - Charged off
+55,LogisticRegression(random_state=12),MaxAbsScaler(),0.1,0.002597402597402597,0.02,0.0013888888888888887,Transformations - Charged off
+56,LogisticRegression(random_state=12),Normalizer(),0.1,0.27519235135915265,0.8208607491579627,0.16690140845070425,Transformations - Charged off
+57,LogisticRegression(random_state=12),KBinsDiscretizer(),0.1,0.4000179025685063,0.3511415792380871,0.468798904538341,Transformations - Charged off
+58,LogisticRegression(random_state=12),StandardScaler(),0.1,0.2700457809603226,0.5864387187390817,0.17799295774647889,Transformations - Charged off
+59,LogisticRegression(random_state=12),0,0.1,0.1986968526152706,0.2617789239982337,0.16568857589984348,Transformations - Charged off
+60,MLPClassifier(random_state=12),RobustScaler(),0.25,0.2328131984844785,0.14958640335844006,0.5409428794992175,Transformations - Charged off
+61,MLPClassifier(random_state=12),MaxAbsScaler(),0.25,0.3171106473233528,0.2424505400985582,0.4602699530516432,Transformations - Charged off
+62,MLPClassifier(random_state=12),Normalizer(),0.25,0.3695378257349095,0.2573547811960638,0.6607003129890454,Transformations - Charged off
+63,MLPClassifier(random_state=12),KBinsDiscretizer(),0.25,0.3751738987528931,0.2622397462976317,0.6619718309859155,Transformations - Charged off
+64,MLPClassifier(random_state=12),StandardScaler(),0.25,0.33459519555782835,0.2344692437049201,0.5924491392801252,Transformations - Charged off
+65,MLPClassifier(random_state=12),0,0.25,0.2980490548401337,0.1950801090826462,0.6482003129890455,Transformations - Charged off
+66,DecisionTreeClassifier(random_state=12),RobustScaler(),0.25,0.24950148488771415,0.15837123210904885,0.5896322378716745,Transformations - Charged off
+67,DecisionTreeClassifier(random_state=12),MaxAbsScaler(),0.25,0.255315115804858,0.16242954607757304,0.5967331768388107,Transformations - Charged off
+68,DecisionTreeClassifier(random_state=12),Normalizer(),0.25,0.26766841885557424,0.172092872633461,0.6036971830985915,Transformations - Charged off
+69,DecisionTreeClassifier(random_state=12),KBinsDiscretizer(),0.25,0.24259140670660465,0.1525375684611364,0.5938184663536776,Transformations - Charged off
+70,DecisionTreeClassifier(random_state=12),StandardScaler(),0.25,0.2696573551186641,0.17238721979686156,0.6202660406885758,Transformations - Charged off
+71,DecisionTreeClassifier(random_state=12),0,0.25,0.26150273373640154,0.16724044496164125,0.6022104851330203,Transformations - Charged off
+72,SVC(random_state=12),RobustScaler(),0.25,0.0,0.0,0.0,Transformations - Charged off
+73,SVC(random_state=12),MaxAbsScaler(),0.25,0.2851676569938832,0.7688190763484881,0.17662363067292644,Transformations - Charged off
+74,SVC(random_state=12),Normalizer(),0.25,0.3888478095467118,0.3370060040814398,0.4617370892018779,Transformations - Charged off
+75,SVC(random_state=12),KBinsDiscretizer(),0.25,0.4245293920953368,0.3294847332051881,0.6008215962441315,Transformations - Charged off
+76,SVC(random_state=12),StandardScaler(),0.25,0.2678255007443253,0.6747779068668163,0.16965962441314555,Transformations - Charged off
+77,SVC(random_state=12),0,0.25,0.0,0.0,0.0,Transformations - Charged off
+78,RandomForestClassifier(random_state=12),RobustScaler(),0.25,0.41802567780496414,0.3248281929793938,0.5911384976525821,Transformations - Charged off
+79,RandomForestClassifier(random_state=12),MaxAbsScaler(),0.25,0.4278152180262686,0.33262912313009696,0.606377151799687,Transformations - Charged off
+80,RandomForestClassifier(random_state=12),Normalizer(),0.25,0.4295646752541168,0.33567202992946343,0.6022691705790298,Transformations - Charged off
+81,RandomForestClassifier(random_state=12),KBinsDiscretizer(),0.25,0.4271479715917155,0.37306894141262026,0.5048904538341159,Transformations - Charged off
+82,RandomForestClassifier(random_state=12),StandardScaler(),0.25,0.4289696461881144,0.3357304477515527,0.5994913928012521,Transformations - Charged off
+83,RandomForestClassifier(random_state=12),0,0.25,0.42259686973203536,0.3280834391227069,0.5980242566510172,Transformations - Charged off
+84,LogisticRegression(random_state=12),RobustScaler(),0.25,0.19196280596838708,0.12549481505593765,0.4131651017214397,Transformations - Charged off
+85,LogisticRegression(random_state=12),MaxAbsScaler(),0.25,0.23588071777230554,0.43766999039831855,0.16551251956181534,Transformations - Charged off
+86,LogisticRegression(random_state=12),Normalizer(),0.25,0.3666231692676828,0.3346645470997558,0.4089397496087637,Transformations - Charged off
+87,LogisticRegression(random_state=12),KBinsDiscretizer(),0.25,0.2900750460523876,0.19081900095286247,0.6063967136150235,Transformations - Charged off
+88,LogisticRegression(random_state=12),StandardScaler(),0.25,0.28315166479309145,0.26186290502307125,0.3130281690140845,Transformations - Charged off
+89,LogisticRegression(random_state=12),0,0.25,0.28476766362774225,0.2115708959168599,0.4407276995305165,Transformations - Charged off
+90,MLPClassifier(random_state=12),RobustScaler(),0.5,0.20790760266064104,0.11953087101129953,0.8080399061032864,Transformations - Charged off
+91,MLPClassifier(random_state=12),MaxAbsScaler(),0.5,0.22465234374968907,0.13104409619285573,0.7914123630672927,Transformations - Charged off
+92,MLPClassifier(random_state=12),Normalizer(),0.5,0.26874601391237424,0.15997152916486854,0.8427425665101721,Transformations - Charged off
+93,MLPClassifier(random_state=12),KBinsDiscretizer(),0.5,0.27027011254375755,0.1612191875052478,0.8371870109546167,Transformations - Charged off
+94,MLPClassifier(random_state=12),StandardScaler(),0.5,0.2443822348874721,0.14407340650285586,0.8080007824726134,Transformations - Charged off
+95,MLPClassifier(random_state=12),0,0.5,0.22015722234055304,0.12938537448600554,0.7830399061032864,Transformations - Charged off
+96,DecisionTreeClassifier(random_state=12),RobustScaler(),0.5,0.19855698519172266,0.11426196979000458,0.7579420970266041,Transformations - Charged off
+97,DecisionTreeClassifier(random_state=12),MaxAbsScaler(),0.5,0.2065868791031628,0.11945775321751233,0.7650430359937401,Transformations - Charged off
+98,DecisionTreeClassifier(random_state=12),Normalizer(),0.5,0.20505789777074115,0.11864832262958287,0.7579812206572769,Transformations - Charged off
+99,DecisionTreeClassifier(random_state=12),KBinsDiscretizer(),0.5,0.19691960278085013,0.11357679124771465,0.7413536776212832,Transformations - Charged off
+100,DecisionTreeClassifier(random_state=12),StandardScaler(),0.5,0.204107503098176,0.11808919337971956,0.7537949921752739,Transformations - Charged off
+101,DecisionTreeClassifier(random_state=12),0,0.5,0.20506381825336967,0.11873201178950775,0.7537754303599373,Transformations - Charged off
+102,SVC(random_state=12),RobustScaler(),0.5,0.08623824249441107,0.0450832923294323,0.9902582159624412,Transformations - Charged off
+103,SVC(random_state=12),MaxAbsScaler(),0.5,0.2111648370244746,0.1240406849783476,0.712245696400626,Transformations - Charged off
+104,SVC(random_state=12),Normalizer(),0.5,0.2353856529452421,0.13646530701286178,0.8580594679186229,Transformations - Charged off
+105,SVC(random_state=12),KBinsDiscretizer(),0.5,0.2684431414475862,0.15823344423113778,0.8858959311424099,Transformations - Charged off
+106,SVC(random_state=12),StandardScaler(),0.5,0.19210243288574386,0.10985152188441824,0.7692097026604068,Transformations - Charged off
+107,SVC(random_state=12),0,0.5,0.09214759897061907,0.048391135765638325,0.9694053208137716,Transformations - Charged off
+108,RandomForestClassifier(random_state=12),RobustScaler(),0.5,0.29331247255575593,0.1761697567335685,0.8789514866979656,Transformations - Charged off
+109,RandomForestClassifier(random_state=12),MaxAbsScaler(),0.5,0.2884670033547372,0.1731116763973149,0.8692097026604069,Transformations - Charged off
+110,RandomForestClassifier(random_state=12),Normalizer(),0.5,0.2931036994010687,0.17608602674000973,0.8761150234741784,Transformations - Charged off
+111,RandomForestClassifier(random_state=12),KBinsDiscretizer(),0.5,0.2681711319847159,0.15799002674041268,0.8901212832550861,Transformations - Charged off
+112,RandomForestClassifier(random_state=12),StandardScaler(),0.5,0.2991291672868329,0.18055566152110888,0.8748435054773083,Transformations - Charged off
+113,RandomForestClassifier(random_state=12),0,0.5,0.2876802983790652,0.17247200277177396,0.8692097026604069,Transformations - Charged off
+114,LogisticRegression(random_state=12),RobustScaler(),0.5,0.1918914359308499,0.11007339592806956,0.7524647887323943,Transformations - Charged off
+115,LogisticRegression(random_state=12),MaxAbsScaler(),0.5,0.15807647287952753,0.09089729344491183,0.6106416275430361,Transformations - Charged off
+116,LogisticRegression(random_state=12),Normalizer(),0.5,0.22473325399227825,0.1308436656700061,0.7982981220657277,Transformations - Charged off
+117,LogisticRegression(random_state=12),KBinsDiscretizer(),0.5,0.22690052670350686,0.1328049445650546,0.7802034428794992,Transformations - Charged off
+118,LogisticRegression(random_state=12),StandardScaler(),0.5,0.20269005944912047,0.11646382759692173,0.7899647887323943,Transformations - Charged off
+119,LogisticRegression(random_state=12),0,0.5,0.20958812200100613,0.12107541442752084,0.7829420970266041,Transformations - Charged off
+120,MLPClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.05,0.10376313721566076,0.33855769230769234,0.0625,Transformations - Charged off
+121,MLPClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.05,0.4225379689111533,0.4560066652062633,0.3977503912363068,Transformations - Charged off
+122,MLPClassifier(random_state=12),0,0.05,0.3254395716498079,0.3130742004926331,0.3770735524256652,Transformations - Charged off
+123,DecisionTreeClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.05,0.2514929891431665,0.7731857031857032,0.15160406885758998,Transformations - Charged off
+124,DecisionTreeClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.05,0.32479469816539164,0.2847974245441145,0.3797339593114241,Transformations - Charged off
+125,DecisionTreeClassifier(random_state=12),0,0.05,0.3200289490935949,0.2920383539259733,0.35602503912363065,Transformations - Charged off
+126,SVC(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.05,0.0,0.0,0.0,Transformations - Charged off
+127,SVC(random_state=12),KBinsDiscretizer(encode='ordinal'),0.05,0.2576224110710829,0.9833333333333332,0.1488262910798122,Transformations - Charged off
+128,SVC(random_state=12),0,0.05,0.0,0.0,0.0,Transformations - Charged off
+129,RandomForestClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.05,0.247215167310444,0.7779012409159468,0.1488262910798122,Transformations - Charged off
+130,RandomForestClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.05,0.2896012268333953,0.9622222222222224,0.1710680751173709,Transformations - Charged off
+131,RandomForestClassifier(random_state=12),0,0.05,0.2924160313581615,0.9565501165501163,0.17386541471048514,Transformations - Charged off
+132,LogisticRegression(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.05,0.0,0.0,0.0,Transformations - Charged off
+133,LogisticRegression(random_state=12),KBinsDiscretizer(encode='ordinal'),0.05,0.3321396770546089,0.6633845298300528,0.2225156494522692,Transformations - Charged off
+134,LogisticRegression(random_state=12),0,0.05,0.07424574705797965,0.1786904761904762,0.047280907668231606,Transformations - Charged off
+135,MLPClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.1,0.2266231955737074,0.6784669252316311,0.13773474178403755,Transformations - Charged off
+136,MLPClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.1,0.3999098259637491,0.3668624538247998,0.4450704225352113,Transformations - Charged off
+137,MLPClassifier(random_state=12),0,0.1,0.3082241573712476,0.2555138011135457,0.4742957746478873,Transformations - Charged off
+138,DecisionTreeClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.1,0.2469411650139473,0.6508328586618061,0.1544014084507042,Transformations - Charged off
+139,DecisionTreeClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.1,0.3017257403613555,0.22230964149466387,0.471537558685446,Transformations - Charged off
+140,DecisionTreeClassifier(random_state=12),0,0.1,0.31676339337398274,0.2429359789895881,0.4561815336463225,Transformations - Charged off
+141,SVC(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.1,0.0,0.0,0.0,Transformations - Charged off
+142,SVC(random_state=12),KBinsDiscretizer(encode='ordinal'),0.1,0.2944366242824213,0.8865611512670336,0.17801251956181535,Transformations - Charged off
+143,SVC(random_state=12),0,0.1,0.0,0.0,0.0,Transformations - Charged off
+144,RandomForestClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.1,0.25150824147349626,0.6635555186987075,0.15577073552425666,Transformations - Charged off
+145,RandomForestClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.1,0.3643051336071713,0.8077477243122015,0.2365023474178404,Transformations - Charged off
+146,RandomForestClassifier(random_state=12),0,0.1,0.3736228647682057,0.7608460395548856,0.2503325508607199,Transformations - Charged off
+147,LogisticRegression(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.1,0.010497574497574495,0.1,0.005575117370892019,Transformations - Charged off
+148,LogisticRegression(random_state=12),KBinsDiscretizer(encode='ordinal'),0.1,0.37326868586107015,0.4200573073599453,0.33794992175273864,Transformations - Charged off
+149,LogisticRegression(random_state=12),0,0.1,0.19059552113453374,0.2320909843300085,0.16400625978090766,Transformations - Charged off
+150,MLPClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.25,0.20508396979599194,0.3171821942779207,0.16136541471048516,Transformations - Charged off
+151,MLPClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.25,0.34468016630012355,0.23518427290385366,0.6481025039123631,Transformations - Charged off
+152,MLPClassifier(random_state=12),0,0.25,0.27786937547155577,0.17652554704388015,0.6675860719874804,Transformations - Charged off
+153,DecisionTreeClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.25,0.2422589929946386,0.3111538591799663,0.2017214397496088,Transformations - Charged off
+154,DecisionTreeClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.25,0.2588929519697644,0.16377215992546418,0.6188184663536775,Transformations - Charged off
+155,DecisionTreeClassifier(random_state=12),0,0.25,0.2552310501613089,0.1619004482703087,0.6035211267605634,Transformations - Charged off
+156,SVC(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.25,0.0,0.0,0.0,Transformations - Charged off
+157,SVC(random_state=12),KBinsDiscretizer(encode='ordinal'),0.25,0.41272908200858704,0.31811737749451463,0.5910602503912363,Transformations - Charged off
+158,SVC(random_state=12),0,0.25,0.0,0.0,0.0,Transformations - Charged off
+159,RandomForestClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.25,0.2365831521746285,0.3552079379113711,0.18648278560250392,Transformations - Charged off
+160,RandomForestClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.25,0.416723077130418,0.34458034120677794,0.5298708920187793,Transformations - Charged off
+161,RandomForestClassifier(random_state=12),0,0.25,0.4468822473857582,0.3529145682916687,0.6119131455399061,Transformations - Charged off
+162,LogisticRegression(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.25,0.2151255389588385,0.27199384422428297,0.18082942097026605,Transformations - Charged off
+163,LogisticRegression(random_state=12),KBinsDiscretizer(encode='ordinal'),0.25,0.3324619631767789,0.22848240909774106,0.6119131455399061,Transformations - Charged off
+164,LogisticRegression(random_state=12),0,0.25,0.2782922438624199,0.20276034188163944,0.4506064162754304,Transformations - Charged off
+165,MLPClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.5,0.12725129622496684,0.07526610041506936,0.6535211267605634,Transformations - Charged off
+166,MLPClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.5,0.2701148787283011,0.1610702624320698,0.8414319248826291,Transformations - Charged off
+167,MLPClassifier(random_state=12),0,0.5,0.21950297705515,0.12805101356785434,0.7829616588419406,Transformations - Charged off
+168,DecisionTreeClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.5,0.1557266406448043,0.09756265798725232,0.5105829420970266,Transformations - Charged off
+169,DecisionTreeClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.5,0.20470625316191787,0.11827539289257265,0.7620500782472613,Transformations - Charged off
+170,DecisionTreeClassifier(random_state=12),0,0.5,0.20686723094745585,0.11969902080061755,0.7635172143974962,Transformations - Charged off
+171,SVC(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.5,0.18081633618252946,0.20046841687098715,0.16830985915492958,Transformations - Charged off
+172,SVC(random_state=12),KBinsDiscretizer(encode='ordinal'),0.5,0.26887163261574865,0.1591868697049412,0.8663928012519563,Transformations - Charged off
+173,SVC(random_state=12),0,0.5,0.09156069426417092,0.048061472741973914,0.9666275430359936,Transformations - Charged off
+174,RandomForestClassifier(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.5,0.15616388253889552,0.10277224152266087,0.5302230046948357,Transformations - Charged off
+175,RandomForestClassifier(random_state=12),KBinsDiscretizer(encode='ordinal'),0.5,0.2814969598445444,0.1680049910838343,0.8719483568075118,Transformations - Charged off
+176,RandomForestClassifier(random_state=12),0,0.5,0.28671593985767185,0.17188556348717512,0.8678403755868545,Transformations - Charged off
+177,LogisticRegression(random_state=12),"KBinsDiscretizer(encode='ordinal', strategy='uniform')",0.5,0.12607832925988222,0.07175379209333035,0.5645344287949923,Transformations - Charged off
+178,LogisticRegression(random_state=12),KBinsDiscretizer(encode='ordinal'),0.5,0.24315089688038574,0.1430506805896657,0.8108372456964007,Transformations - Charged off
+179,LogisticRegression(random_state=12),0,0.5,0.2221502642977491,0.12980279227391034,0.7759780907668231,Transformations - Charged off

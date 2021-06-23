@@ -1,0 +1,551 @@
+,classifier,preprocessor,prior,f1,precision,recall,dataset_description
+0,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+1,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+2,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+3,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.01,0.0,0.0,0.0,Experimental - Marked
+4,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.01,0.0,0.0,0.0,Experimental - Marked
+5,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.01,0.0,0.0,0.0,Experimental - Marked
+6,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.01,0.0,0.0,0.0,Experimental - Marked
+7,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+8,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+9,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+10,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.01,0.0,0.0,0.0,Experimental - Marked
+11,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.01,0.0,0.0,0.0,Experimental - Marked
+12,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.01,0.0,0.0,0.0,Experimental - Marked
+13,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.01,0.0,0.0,0.0,Experimental - Marked
+14,MLPClassifier(random_state=12),,0.01,0.12664820203950639,0.0999090437142521,0.21742424242424244,Experimental - Marked
+15,MLPClassifier(random_state=12),,0.01,0.10850579396357382,0.11693699661797011,0.17196969696969697,Experimental - Marked
+16,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+17,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+18,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+19,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.01,0.0,0.0,0.0,Experimental - Marked
+20,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.01,0.0,0.0,0.0,Experimental - Marked
+21,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.01,0.0,0.0,0.0,Experimental - Marked
+22,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.01,0.0,0.0,0.0,Experimental - Marked
+23,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.01,0.18727608959449896,0.16123957475273265,0.23484848484848486,Experimental - Marked
+24,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.01,0.1564876764191646,0.13168402403696522,0.1984848484848485,Experimental - Marked
+25,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.01,0.15109202179933887,0.13202638005269585,0.18863636363636366,Experimental - Marked
+26,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.01,0.06446268929027549,0.05042991056071551,0.09090909090909091,Experimental - Marked
+27,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.01,0.1274534558878274,0.10335328070622188,0.17196969696969697,Experimental - Marked
+28,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.01,0.10284083721465125,0.08161595079215217,0.14393939393939395,Experimental - Marked
+29,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.01,0.12004690544391661,0.09730076739151149,0.16287878787878787,Experimental - Marked
+30,DecisionTreeClassifier(random_state=12),,0.01,0.08560629026146267,0.07147746818025456,0.10833333333333332,Experimental - Marked
+31,DecisionTreeClassifier(random_state=12),,0.01,0.1252257753017369,0.09636044511044511,0.18106060606060606,Experimental - Marked
+32,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+33,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+34,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+35,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.01,0.0,0.0,0.0,Experimental - Marked
+36,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.01,0.0,0.0,0.0,Experimental - Marked
+37,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.01,0.0,0.0,0.0,Experimental - Marked
+38,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.01,0.0,0.0,0.0,Experimental - Marked
+39,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+40,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+41,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+42,SVC(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.01,0.0,0.0,0.0,Experimental - Marked
+43,SVC(random_state=12),"[Normalizer(), SelectKBest()]",0.01,0.0,0.0,0.0,Experimental - Marked
+44,SVC(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.01,0.0,0.0,0.0,Experimental - Marked
+45,SVC(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.01,0.0,0.0,0.0,Experimental - Marked
+46,SVC(random_state=12),,0.01,0.0,0.0,0.0,Experimental - Marked
+47,SVC(random_state=12),,0.01,0.0,0.0,0.0,Experimental - Marked
+48,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+49,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+50,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+51,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.01,0.0,0.0,0.0,Experimental - Marked
+52,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.01,0.0,0.0,0.0,Experimental - Marked
+53,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.01,0.0,0.0,0.0,Experimental - Marked
+54,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.01,0.0,0.0,0.0,Experimental - Marked
+55,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.01,0.032051282051282055,0.2,0.017424242424242425,Experimental - Marked
+56,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+57,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.01,0.015384615384615385,0.1,0.008333333333333333,Experimental - Marked
+58,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.01,0.01666666666666667,0.1,0.00909090909090909,Experimental - Marked
+59,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.01,0.03333333333333334,0.2,0.01818181818181818,Experimental - Marked
+60,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.01,0.0,0.0,0.0,Experimental - Marked
+61,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.01,0.01666666666666667,0.1,0.00909090909090909,Experimental - Marked
+62,RandomForestClassifier(random_state=12),,0.01,0.05,0.3,0.02727272727272727,Experimental - Marked
+63,RandomForestClassifier(random_state=12),,0.01,0.06410256410256411,0.3,0.03636363636363636,Experimental - Marked
+64,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+65,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+66,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+67,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.01,0.0,0.0,0.0,Experimental - Marked
+68,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.01,0.0,0.0,0.0,Experimental - Marked
+69,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.01,0.0,0.0,0.0,Experimental - Marked
+70,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.01,0.0,0.0,0.0,Experimental - Marked
+71,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+72,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+73,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.01,0.0,0.0,0.0,Experimental - Marked
+74,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.01,0.0,0.0,0.0,Experimental - Marked
+75,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest()]",0.01,0.0,0.0,0.0,Experimental - Marked
+76,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.01,0.0,0.0,0.0,Experimental - Marked
+77,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.01,0.0,0.0,0.0,Experimental - Marked
+78,LogisticRegression(random_state=12),,0.01,0.10134372589615556,0.11880952380952378,0.09090909090909091,Experimental - Marked
+79,LogisticRegression(random_state=12),,0.01,0.08599420527831322,0.09650793650793651,0.08181818181818182,Experimental - Marked
+80,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+81,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+82,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+83,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.05,0.0,0.0,0.0,Experimental - Marked
+84,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.05,0.0,0.0,0.0,Experimental - Marked
+85,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.05,0.06190476190476191,0.26666666666666666,0.03636363636363636,Experimental - Marked
+86,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.05,0.045238095238095244,0.16666666666666666,0.02727272727272727,Experimental - Marked
+87,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.05,0.015384615384615385,0.05,0.00909090909090909,Experimental - Marked
+88,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+89,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.05,0.06616946778711484,0.09166666666666666,0.05454545454545454,Experimental - Marked
+90,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.05,0.0,0.0,0.0,Experimental - Marked
+91,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.05,0.0,0.0,0.0,Experimental - Marked
+92,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.05,0.0,0.0,0.0,Experimental - Marked
+93,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.05,0.02857142857142857,0.08333333333333333,0.017424242424242425,Experimental - Marked
+94,MLPClassifier(random_state=12),,0.05,0.09385703705362845,0.055597015911159994,0.35227272727272724,Experimental - Marked
+95,MLPClassifier(random_state=12),,0.05,0.0931919715793816,0.054362714071158405,0.34545454545454546,Experimental - Marked
+96,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.05,0.023611111111111114,0.03428571428571429,0.01818181818181818,Experimental - Marked
+97,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+98,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.05,0.029385429385429384,0.04625,0.02727272727272727,Experimental - Marked
+99,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.05,0.027884615384615386,0.06999999999999999,0.01818181818181818,Experimental - Marked
+100,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.05,0.02291666666666667,0.10476190476190476,0.01818181818181818,Experimental - Marked
+101,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.05,0.01111111111111111,0.014285714285714285,0.00909090909090909,Experimental - Marked
+102,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.05,0.008695652173913044,0.00909090909090909,0.008333333333333333,Experimental - Marked
+103,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.05,0.10344910770744822,0.06033109280254327,0.3772727272727273,Experimental - Marked
+104,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.05,0.1149843167797033,0.06860421347670695,0.3613636363636364,Experimental - Marked
+105,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.05,0.09842498336349717,0.05773269896550738,0.34242424242424246,Experimental - Marked
+106,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.05,0.05680526897241671,0.03260869274953233,0.225,Experimental - Marked
+107,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.05,0.06710700115071773,0.03876191975318109,0.2515151515151515,Experimental - Marked
+108,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.05,0.0667776229750677,0.039067707519405456,0.2363636363636364,Experimental - Marked
+109,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.05,0.08597967096869356,0.04989935921375993,0.3151515151515151,Experimental - Marked
+110,DecisionTreeClassifier(random_state=12),,0.05,0.07732083038101858,0.04438891529531551,0.3053030303030303,Experimental - Marked
+111,DecisionTreeClassifier(random_state=12),,0.05,0.08973567936549515,0.05164318693936302,0.3446969696969697,Experimental - Marked
+112,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+113,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+114,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+115,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.05,0.0,0.0,0.0,Experimental - Marked
+116,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.05,0.0,0.0,0.0,Experimental - Marked
+117,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.05,0.0,0.0,0.0,Experimental - Marked
+118,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.05,0.0,0.0,0.0,Experimental - Marked
+119,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+120,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+121,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+122,SVC(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.05,0.0,0.0,0.0,Experimental - Marked
+123,SVC(random_state=12),"[Normalizer(), SelectKBest()]",0.05,0.0,0.0,0.0,Experimental - Marked
+124,SVC(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.05,0.0,0.0,0.0,Experimental - Marked
+125,SVC(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.05,0.0,0.0,0.0,Experimental - Marked
+126,SVC(random_state=12),,0.05,0.0,0.0,0.0,Experimental - Marked
+127,SVC(random_state=12),,0.05,0.0,0.0,0.0,Experimental - Marked
+128,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.05,0.06857808857808859,0.18409090909090908,0.045454545454545456,Experimental - Marked
+129,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.05,0.01666666666666667,0.1,0.00909090909090909,Experimental - Marked
+130,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.05,0.0473890608875129,0.07083333333333333,0.03636363636363636,Experimental - Marked
+131,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.05,0.0,0.0,0.0,Experimental - Marked
+132,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.05,0.032051282051282055,0.15,0.01818181818181818,Experimental - Marked
+133,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.05,0.026050420168067228,0.05,0.01818181818181818,Experimental - Marked
+134,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.05,0.025098039215686273,0.041666666666666664,0.01818181818181818,Experimental - Marked
+135,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.05,0.12785714285714286,0.3066666666666667,0.09015151515151515,Experimental - Marked
+136,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.05,0.1412087912087912,0.6,0.08106060606060607,Experimental - Marked
+137,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.05,0.19278388278388278,0.6,0.11742424242424243,Experimental - Marked
+138,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.05,0.12332321187584347,0.22000000000000003,0.09090909090909091,Experimental - Marked
+139,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.05,0.12729691876750698,0.22833333333333333,0.09015151515151516,Experimental - Marked
+140,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.05,0.20847985347985348,0.5166666666666666,0.13484848484848486,Experimental - Marked
+141,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.05,0.19487179487179485,0.775,0.11742424242424243,Experimental - Marked
+142,RandomForestClassifier(random_state=12),,0.05,0.1294871794871795,0.7,0.07196969696969698,Experimental - Marked
+143,RandomForestClassifier(random_state=12),,0.05,0.1401098901098901,0.6166666666666666,0.08106060606060607,Experimental - Marked
+144,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+145,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.05,0.015384615384615385,0.05,0.00909090909090909,Experimental - Marked
+146,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+147,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.05,0.0,0.0,0.0,Experimental - Marked
+148,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.05,0.0,0.0,0.0,Experimental - Marked
+149,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.05,0.04395604395604396,0.11666666666666665,0.02727272727272727,Experimental - Marked
+150,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.05,0.0,0.0,0.0,Experimental - Marked
+151,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+152,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+153,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.05,0.0,0.0,0.0,Experimental - Marked
+154,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.05,0.0,0.0,0.0,Experimental - Marked
+155,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest()]",0.05,0.0,0.0,0.0,Experimental - Marked
+156,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.05,0.0,0.0,0.0,Experimental - Marked
+157,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.05,0.0,0.0,0.0,Experimental - Marked
+158,LogisticRegression(random_state=12),,0.05,0.1590128732218535,0.11044434580341163,0.296969696969697,Experimental - Marked
+159,LogisticRegression(random_state=12),,0.05,0.1526548577858177,0.1072502168883748,0.26969696969696966,Experimental - Marked
+160,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.1,0.007692307692307691,0.006666666666666666,0.00909090909090909,Experimental - Marked
+161,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.1,0.047058823529411764,0.06999999999999999,0.0356060606060606,Experimental - Marked
+162,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.1,0.028717948717948714,0.075,0.01818181818181818,Experimental - Marked
+163,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.1,0.013333333333333332,0.025,0.00909090909090909,Experimental - Marked
+164,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.1,0.030000000000000006,0.04038461538461539,0.02727272727272727,Experimental - Marked
+165,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.1,0.02285714285714286,0.034999999999999996,0.01818181818181818,Experimental - Marked
+166,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.1,0.0325,0.042222222222222223,0.02727272727272727,Experimental - Marked
+167,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.1,0.013333333333333332,0.025,0.00909090909090909,Experimental - Marked
+168,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.1,0.031571469167377096,0.04004329004329005,0.026515151515151512,Experimental - Marked
+169,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.1,0.10031725033139716,0.09060591582330713,0.12575757575757576,Experimental - Marked
+170,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.1,0.0,0.0,0.0,Experimental - Marked
+171,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.1,0.0,0.0,0.0,Experimental - Marked
+172,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.1,0.026666666666666665,0.11111111111111112,0.01818181818181818,Experimental - Marked
+173,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.1,0.09937607974073612,0.08535539215686275,0.125,Experimental - Marked
+174,MLPClassifier(random_state=12),,0.1,0.07524044338235052,0.04187795472386903,0.41515151515151516,Experimental - Marked
+175,MLPClassifier(random_state=12),,0.1,0.06957238814999668,0.03773221818267678,0.4492424242424242,Experimental - Marked
+176,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.1,0.05761544850498339,0.050057234432234435,0.07196969696969698,Experimental - Marked
+177,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.1,0.03102462990329522,0.021320496425995147,0.07196969696969698,Experimental - Marked
+178,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.1,0.032078537217856105,0.030163349229386967,0.05378787878787879,Experimental - Marked
+179,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.1,0.007407407407407407,0.00625,0.00909090909090909,Experimental - Marked
+180,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.1,0.030833333333333334,0.0388034188034188,0.02727272727272727,Experimental - Marked
+181,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.1,0.0436683949130556,0.031892798470512136,0.1,Experimental - Marked
+182,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.1,0.02122794583908389,0.019625603864734296,0.03636363636363636,Experimental - Marked
+183,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.1,0.08370709171895344,0.046297725597275845,0.4431818181818182,Experimental - Marked
+184,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.1,0.071505279078215,0.03907595322672284,0.425,Experimental - Marked
+185,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.1,0.06917499285034788,0.037813683460953866,0.42348484848484846,Experimental - Marked
+186,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.1,0.04520490045630623,0.02443730255638686,0.3053030303030303,Experimental - Marked
+187,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.1,0.06435846437084018,0.035200285683016655,0.3787878787878788,Experimental - Marked
+188,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.1,0.07277602494663714,0.039759400211629214,0.4333333333333334,Experimental - Marked
+189,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.1,0.07861284789542652,0.04345514845087689,0.4318181818181818,Experimental - Marked
+190,DecisionTreeClassifier(random_state=12),,0.1,0.07440631029801557,0.04076029593827526,0.4333333333333333,Experimental - Marked
+191,DecisionTreeClassifier(random_state=12),,0.1,0.06453564906333413,0.03545706678280823,0.3621212121212121,Experimental - Marked
+192,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.1,0.015384615384615385,0.05,0.00909090909090909,Experimental - Marked
+193,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.1,0.0,0.0,0.0,Experimental - Marked
+194,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.1,0.0,0.0,0.0,Experimental - Marked
+195,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.1,0.02105263157894737,0.025,0.01818181818181818,Experimental - Marked
+196,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.1,0.0,0.0,0.0,Experimental - Marked
+197,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.1,0.0,0.0,0.0,Experimental - Marked
+198,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.1,0.0,0.0,0.0,Experimental - Marked
+199,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.1,0.0,0.0,0.0,Experimental - Marked
+200,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.1,0.0,0.0,0.0,Experimental - Marked
+201,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.1,0.0,0.0,0.0,Experimental - Marked
+202,SVC(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.1,0.0,0.0,0.0,Experimental - Marked
+203,SVC(random_state=12),"[Normalizer(), SelectKBest()]",0.1,0.0,0.0,0.0,Experimental - Marked
+204,SVC(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.1,0.0,0.0,0.0,Experimental - Marked
+205,SVC(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.1,0.0,0.0,0.0,Experimental - Marked
+206,SVC(random_state=12),,0.1,0.0,0.0,0.0,Experimental - Marked
+207,SVC(random_state=12),,0.1,0.0,0.0,0.0,Experimental - Marked
+208,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.1,0.02232323232323232,0.022579175210754157,0.02727272727272727,Experimental - Marked
+209,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.1,0.049331967185869185,0.04637653782815073,0.06363636363636363,Experimental - Marked
+210,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.1,0.08091166945389712,0.06797619047619047,0.11666666666666665,Experimental - Marked
+211,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.1,0.00909090909090909,0.00909090909090909,0.00909090909090909,Experimental - Marked
+212,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.1,0.034074074074074076,0.05625,0.02727272727272727,Experimental - Marked
+213,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.1,0.03793030964508044,0.0512962962962963,0.04469696969696969,Experimental - Marked
+214,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.1,0.047000847000847,0.03630753595997499,0.07272727272727272,Experimental - Marked
+215,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.1,0.2726437392121976,0.24916671048249994,0.3340909090909091,Experimental - Marked
+216,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.1,0.34174843434835733,0.36986215538847117,0.34393939393939393,Experimental - Marked
+217,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.1,0.31965447518957957,0.3780438842203548,0.3257575757575757,Experimental - Marked
+218,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.1,0.09746364930750313,0.06547581073896863,0.2,Experimental - Marked
+219,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.1,0.196510813281514,0.1700178052654833,0.24318181818181822,Experimental - Marked
+220,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.1,0.2551979526109961,0.2529510049633889,0.2712121212121212,Experimental - Marked
+221,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.1,0.34085125916395265,0.47108197358197346,0.29848484848484846,Experimental - Marked
+222,RandomForestClassifier(random_state=12),,0.1,0.2982430340557275,0.4280555555555556,0.2356060606060606,Experimental - Marked
+223,RandomForestClassifier(random_state=12),,0.1,0.22596872082166203,0.4430952380952381,0.16287878787878787,Experimental - Marked
+224,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.1,0.0,0.0,0.0,Experimental - Marked
+225,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.1,0.0,0.0,0.0,Experimental - Marked
+226,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.1,0.028742634575052432,0.0375,0.026515151515151512,Experimental - Marked
+227,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.1,0.011764705882352943,0.016666666666666666,0.00909090909090909,Experimental - Marked
+228,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.1,0.0,0.0,0.0,Experimental - Marked
+229,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.1,0.0,0.0,0.0,Experimental - Marked
+230,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.1,0.0,0.0,0.0,Experimental - Marked
+231,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.1,0.0,0.0,0.0,Experimental - Marked
+232,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.1,0.0,0.0,0.0,Experimental - Marked
+233,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.1,0.0,0.0,0.0,Experimental - Marked
+234,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.1,0.0,0.0,0.0,Experimental - Marked
+235,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest()]",0.1,0.0,0.0,0.0,Experimental - Marked
+236,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.1,0.0,0.0,0.0,Experimental - Marked
+237,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.1,0.0,0.0,0.0,Experimental - Marked
+238,LogisticRegression(random_state=12),,0.1,0.10764189820614953,0.06343692607086696,0.35984848484848486,Experimental - Marked
+239,LogisticRegression(random_state=12),,0.1,0.10863022392611796,0.06563041508397453,0.3242424242424242,Experimental - Marked
+240,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.25,0.03408664904146115,0.019437273859224242,0.15303030303030304,Experimental - Marked
+241,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.25,0.04521045514132154,0.024635398531806213,0.2871212121212121,Experimental - Marked
+242,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.25,0.03683469866632084,0.02034072536100633,0.225,Experimental - Marked
+243,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.25,0.04077708535983129,0.0342572180665038,0.10833333333333335,Experimental - Marked
+244,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.25,0.03554961344323047,0.024618104089385875,0.10909090909090909,Experimental - Marked
+245,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.25,0.026039585710638163,0.014428237295882038,0.15454545454545454,Experimental - Marked
+246,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.25,0.05876200795649884,0.03354753183083258,0.26136363636363635,Experimental - Marked
+247,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.25,0.05842048115818608,0.04491092241092241,0.12424242424242424,Experimental - Marked
+248,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.25,0.06621808668160929,0.03923170766251558,0.23409090909090907,Experimental - Marked
+249,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.25,0.09076735753949164,0.05054862088389478,0.46818181818181814,Experimental - Marked
+250,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.25,0.019290232894245314,0.012393205544382599,0.05378787878787879,Experimental - Marked
+251,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.25,0.052564981697882186,0.030101848873905518,0.22575757575757574,Experimental - Marked
+252,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.25,0.06645563009092717,0.03666071491731482,0.36060606060606065,Experimental - Marked
+253,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.25,0.0705463745979229,0.03860895313560347,0.42348484848484846,Experimental - Marked
+254,MLPClassifier(random_state=12),,0.25,0.052661351444515135,0.02745215928736331,0.6500000000000001,Experimental - Marked
+255,MLPClassifier(random_state=12),,0.25,0.058196371238000234,0.030577541209896076,0.6121212121212122,Experimental - Marked
+256,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.25,0.03601822895452695,0.019081005619264735,0.34090909090909094,Experimental - Marked
+257,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.25,0.03479391500373997,0.01828380031769039,0.3681818181818182,Experimental - Marked
+258,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.25,0.037374666997468144,0.01962836923906628,0.4053030303030303,Experimental - Marked
+259,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.25,0.024703745634669885,0.014690207868793808,0.1,Experimental - Marked
+260,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.25,0.0419807870988009,0.031245957224477545,0.19772727272727275,Experimental - Marked
+261,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.25,0.03314911048896722,0.019067065535009614,0.16060606060606059,Experimental - Marked
+262,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.25,0.03183449683351547,0.016900548948410844,0.29772727272727273,Experimental - Marked
+263,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.25,0.053053532735782526,0.027784721243985955,0.5946969696969697,Experimental - Marked
+264,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.25,0.04570021717582516,0.02383353162866497,0.5590909090909091,Experimental - Marked
+265,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.25,0.05519806281225943,0.028851613763200872,0.6378787878787879,Experimental - Marked
+266,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.25,0.03780191643263795,0.019660420958365826,0.4954545454545454,Experimental - Marked
+267,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.25,0.04025047038790941,0.020911109065257026,0.5409090909090909,Experimental - Marked
+268,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.25,0.04969594446548758,0.025984950078966174,0.5871212121212122,Experimental - Marked
+269,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.25,0.04577624128959288,0.023873646219485425,0.5590909090909092,Experimental - Marked
+270,DecisionTreeClassifier(random_state=12),,0.25,0.050081264676267376,0.026153679094138193,0.593939393939394,Experimental - Marked
+271,DecisionTreeClassifier(random_state=12),,0.25,0.051639897539136795,0.026936597290073843,0.6318181818181818,Experimental - Marked
+272,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.25,0.009523809523809525,0.01,0.00909090909090909,Experimental - Marked
+273,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.25,0.012500000000000002,0.02,0.00909090909090909,Experimental - Marked
+274,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.25,0.01666666666666667,0.1,0.00909090909090909,Experimental - Marked
+275,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.25,0.005,0.0034482758620689655,0.00909090909090909,Experimental - Marked
+276,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.25,0.0,0.0,0.0,Experimental - Marked
+277,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.25,0.017422867513611617,0.018055555555555554,0.01818181818181818,Experimental - Marked
+278,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.25,0.056336996336996334,0.13333333333333333,0.03636363636363636,Experimental - Marked
+279,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.25,0.015607228333662692,0.009798890429958391,0.04469696969696969,Experimental - Marked
+280,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.25,0.049732271656017804,0.03291306042322355,0.12727272727272726,Experimental - Marked
+281,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.25,0.03995515061491295,0.02298483629193534,0.16136363636363635,Experimental - Marked
+282,SVC(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.25,0.0056603773584905665,0.003157894736842105,0.02727272727272727,Experimental - Marked
+283,SVC(random_state=12),"[Normalizer(), SelectKBest()]",0.25,0.03309599752301297,0.01955352968676952,0.14318181818181822,Experimental - Marked
+284,SVC(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.25,0.02455980132980854,0.02062636165577342,0.08181818181818182,Experimental - Marked
+285,SVC(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.25,0.0631005373891835,0.09116770616770617,0.1,Experimental - Marked
+286,SVC(random_state=12),,0.25,0.0,0.0,0.0,Experimental - Marked
+287,SVC(random_state=12),,0.25,0.0,0.0,0.0,Experimental - Marked
+288,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.25,0.03448378188203052,0.018368190261599582,0.28787878787878785,Experimental - Marked
+289,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.25,0.03659803440960219,0.019598297840854966,0.28939393939393937,Experimental - Marked
+290,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.25,0.028529202187497837,0.015247121857490187,0.2439393939393939,Experimental - Marked
+291,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.25,0.037289846106081596,0.021325449858537116,0.2159090909090909,Experimental - Marked
+292,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.25,0.03196872148749006,0.017501301899336054,0.20757575757575758,Experimental - Marked
+293,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.25,0.030782350495728073,0.016538563704484414,0.23409090909090907,Experimental - Marked
+294,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.25,0.03705846103707418,0.01998868857976372,0.29772727272727273,Experimental - Marked
+295,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.25,0.09622144609627634,0.05368675345404004,0.4886363636363636,Experimental - Marked
+296,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.25,0.1528372850415562,0.08945631558238158,0.5515151515151515,Experimental - Marked
+297,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.25,0.18855725726114952,0.11381601356611977,0.5787878787878787,Experimental - Marked
+298,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.25,0.056216398301471904,0.030068208961759036,0.4325757575757575,Experimental - Marked
+299,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.25,0.0714181136705582,0.03890469740017221,0.4424242424242424,Experimental - Marked
+300,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.25,0.10906574714558644,0.06122848773903612,0.5143939393939394,Experimental - Marked
+301,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.25,0.15048318228699442,0.08828660325314057,0.5234848484848486,Experimental - Marked
+302,RandomForestClassifier(random_state=12),,0.25,0.18734161555371145,0.1145172878711859,0.5507575757575758,Experimental - Marked
+303,RandomForestClassifier(random_state=12),,0.25,0.190887479017686,0.12149828413348387,0.5053030303030304,Experimental - Marked
+304,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.25,0.03763225283062631,0.022471609626318546,0.15303030303030302,Experimental - Marked
+305,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.25,0.031216339263739713,0.01861952070644457,0.11742424242424243,Experimental - Marked
+306,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.25,0.035990189706992484,0.020267992006845162,0.17196969696969694,Experimental - Marked
+307,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.25,0.02979726219643728,0.01782615790190496,0.1,Experimental - Marked
+308,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.25,0.011879598814382216,0.007042131844763423,0.045454545454545456,Experimental - Marked
+309,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.25,0.027733607160524244,0.016217874909725503,0.1181818181818182,Experimental - Marked
+310,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.25,0.027724633594355407,0.016997635999431486,0.09924242424242424,Experimental - Marked
+311,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.25,0.0,0.0,0.0,Experimental - Marked
+312,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.25,0.00909090909090909,0.00909090909090909,0.00909090909090909,Experimental - Marked
+313,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.25,0.0,0.0,0.0,Experimental - Marked
+314,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.25,0.013333333333333336,0.008853681267474371,0.02727272727272727,Experimental - Marked
+315,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest()]",0.25,0.022433862433862434,0.01742072170585019,0.03636363636363636,Experimental - Marked
+316,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.25,0.04971800807294327,0.03502140974967062,0.09848484848484848,Experimental - Marked
+317,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.25,0.0643629957572986,0.045345086213730276,0.125,Experimental - Marked
+318,LogisticRegression(random_state=12),,0.25,0.07013391930022225,0.037325738382549635,0.5946969696969696,Experimental - Marked
+319,LogisticRegression(random_state=12),,0.25,0.06666591512544327,0.035385277710324625,0.5863636363636364,Experimental - Marked
+320,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.5,0.02843862951202537,0.014518518409825482,0.7030303030303031,Experimental - Marked
+321,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.5,0.02920619143620139,0.014906853060170231,0.7212121212121213,Experimental - Marked
+322,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.5,0.03000679749282128,0.015306136592079314,0.7659090909090909,Experimental - Marked
+323,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.5,0.020076395536860088,0.010237024358448928,0.55,Experimental - Marked
+324,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.5,0.02576320843263145,0.013136409449939523,0.7484848484848486,Experimental - Marked
+325,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.5,0.028071301708139547,0.014333993463811378,0.7015151515151515,Experimental - Marked
+326,MLPClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.5,0.02747105974085945,0.01398586631548777,0.7848484848484849,Experimental - Marked
+327,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.5,0.026406640833010392,0.013441770545943565,0.7477272727272728,Experimental - Marked
+328,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.5,0.027976296002704328,0.014258470468944278,0.7477272727272728,Experimental - Marked
+329,MLPClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.5,0.032637363204750046,0.016655345214106256,0.8113636363636363,Experimental - Marked
+330,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.5,0.023566081796854828,0.011986665494721363,0.7030303030303031,Experimental - Marked
+331,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.5,0.028396104775900932,0.014484216457336241,0.7212121212121213,Experimental - Marked
+332,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.5,0.027515883596141738,0.01402007922607069,0.7386363636363636,Experimental - Marked
+333,MLPClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.5,0.03172859330404516,0.016201882726211057,0.7659090909090909,Experimental - Marked
+334,MLPClassifier(random_state=12),,0.5,0.03942921735853959,0.020395931782879163,0.6772727272727274,Experimental - Marked
+335,MLPClassifier(random_state=12),,0.5,0.03565076432273413,0.01830088373714831,0.7227272727272728,Experimental - Marked
+336,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.5,0.02712651259509013,0.013852875057679317,0.656060606060606,Experimental - Marked
+337,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.5,0.023067500816595303,0.01174504838288017,0.6484848484848486,Experimental - Marked
+338,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.5,0.02280825286916628,0.011614149501880226,0.6386363636363636,Experimental - Marked
+339,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.5,0.020363882231023214,0.010376746782599165,0.6363636363636365,Experimental - Marked
+340,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.5,0.020455916292205504,0.010405971096719006,0.6583333333333333,Experimental - Marked
+341,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.5,0.023530716188969587,0.012020985704855094,0.5946969696969696,Experimental - Marked
+342,DecisionTreeClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.5,0.022002784265110396,0.011199487564217542,0.6681818181818182,Experimental - Marked
+343,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.5,0.03163421898915511,0.01618274076094988,0.7045454545454545,Experimental - Marked
+344,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.5,0.02942922465893825,0.01504478139470405,0.6765151515151515,Experimental - Marked
+345,DecisionTreeClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.5,0.03397250356960691,0.017397484610516635,0.7219696969696969,Experimental - Marked
+346,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.5,0.026135753289859502,0.01332225778811646,0.6856060606060606,Experimental - Marked
+347,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.5,0.027149395354656557,0.01386477430002452,0.6666666666666667,Experimental - Marked
+348,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.5,0.029034730443883723,0.014828916902591072,0.7022727272727273,Experimental - Marked
+349,DecisionTreeClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.5,0.034851829763439104,0.017833233765517296,0.7674242424242423,Experimental - Marked
+350,DecisionTreeClassifier(random_state=12),,0.5,0.035864034903068845,0.018356537471086863,0.793939393939394,Experimental - Marked
+351,DecisionTreeClassifier(random_state=12),,0.5,0.03368126673314585,0.017222994542563208,0.7666666666666667,Experimental - Marked
+352,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.5,0.024255200001320816,0.012364625742050743,0.6492424242424242,Experimental - Marked
+353,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.5,0.026530371937407843,0.013523474931797352,0.7333333333333333,Experimental - Marked
+354,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.5,0.02545135544432963,0.012970872082607308,0.6946969696969696,Experimental - Marked
+355,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.5,0.02120125282732204,0.01080691693177313,0.6507575757575759,Experimental - Marked
+356,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.5,0.023449755725781354,0.011957209160197053,0.6492424242424242,Experimental - Marked
+357,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.5,0.026257942766463933,0.013407473079485324,0.6583333333333333,Experimental - Marked
+358,SVC(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.5,0.024719031710080032,0.012610053985331177,0.6492424242424242,Experimental - Marked
+359,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.5,0.027020892045559724,0.013762237196228105,0.7484848484848485,Experimental - Marked
+360,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.5,0.030072831060573124,0.015353960571514993,0.7393939393939395,Experimental - Marked
+361,SVC(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.5,0.03023459506708286,0.015406888604239794,0.8113636363636363,Experimental - Marked
+362,SVC(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.5,0.023770884666590004,0.012113431528619933,0.6681818181818182,Experimental - Marked
+363,SVC(random_state=12),"[Normalizer(), SelectKBest()]",0.5,0.02668667817520582,0.013597864303563212,0.7310606060606061,Experimental - Marked
+364,SVC(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.5,0.02685447439418609,0.013676217669751531,0.7492424242424243,Experimental - Marked
+365,SVC(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.5,0.028406282144372918,0.014467567371157794,0.7840909090909091,Experimental - Marked
+366,SVC(random_state=12),,0.5,0.01676168563645055,0.008452534192937804,0.990909090909091,Experimental - Marked
+367,SVC(random_state=12),,0.5,0.015977798588441314,0.008053642899963659,1.0,Experimental - Marked
+368,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.5,0.025416901118937164,0.012946913289820177,0.6931818181818182,Experimental - Marked
+369,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.5,0.024616146643568305,0.01252760040393403,0.7121212121212122,Experimental - Marked
+370,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.5,0.02622052431949522,0.013357202894031056,0.7204545454545455,Experimental - Marked
+371,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.5,0.0232863889375309,0.011875673354668919,0.6681818181818182,Experimental - Marked
+372,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.5,0.027964597456331085,0.014281187526158484,0.7098484848484848,Experimental - Marked
+373,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.5,0.024702411065763572,0.012591768224202677,0.6954545454545455,Experimental - Marked
+374,RandomForestClassifier(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.5,0.02519379867279296,0.012813224257387979,0.7833333333333333,Experimental - Marked
+375,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.5,0.04436975084743957,0.022856561013149736,0.7659090909090909,Experimental - Marked
+376,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.5,0.042168587755958484,0.021749979455249233,0.7121212121212122,Experimental - Marked
+377,RandomForestClassifier(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.5,0.04604070262975265,0.023735833424472136,0.7674242424242423,Experimental - Marked
+378,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.5,0.033105540106838555,0.016933371344992735,0.746969696969697,Experimental - Marked
+379,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest()]",0.5,0.0374552933889714,0.019210945053391812,0.7484848484848485,Experimental - Marked
+380,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.5,0.04321308747345731,0.02225622127308618,0.7484848484848485,Experimental - Marked
+381,RandomForestClassifier(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.5,0.045542924965628555,0.023543978524413242,0.7121212121212122,Experimental - Marked
+382,RandomForestClassifier(random_state=12),,0.5,0.05141170111848435,0.02657823921187037,0.793939393939394,Experimental - Marked
+383,RandomForestClassifier(random_state=12),,0.5,0.04770148292675749,0.02461956406134917,0.7765151515151515,Experimental - Marked
+384,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.5,0.02707460026355089,0.01379467924409392,0.7303030303030303,Experimental - Marked
+385,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.5,0.026140315688002104,0.013311070472730908,0.7378787878787879,Experimental - Marked
+386,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.5,0.02582938684120637,0.013155839323457735,0.7106060606060606,Experimental - Marked
+387,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=5)]",0.5,0.02309852808366098,0.011758720912054977,0.7181818181818181,Experimental - Marked
+388,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest()]",0.5,0.02427700656011817,0.012372591954447872,0.6666666666666667,Experimental - Marked
+389,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=20)]",0.5,0.023019229195081575,0.01169495590534878,0.7757575757575758,Experimental - Marked
+390,LogisticRegression(random_state=12),"[KBinsDiscretizer(encode='ordinal', strategy='uniform'), SelectKBest(k=40)]",0.5,0.030374981559146075,0.01549472612156679,0.7742424242424242,Experimental - Marked
+391,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=10,
+    step=10)]",0.5,0.024354133639370102,0.012388135128993793,0.7204545454545455,Experimental - Marked
+392,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=20,
+    step=10)]",0.5,0.024360329730961826,0.01238869251739812,0.7303030303030303,Experimental - Marked
+393,LogisticRegression(random_state=12),"[Normalizer(), RFE(estimator=RandomForestClassifier(random_state=12), n_features_to_select=40,
+    step=10)]",0.5,0.029225677648711406,0.014906195648584659,0.7477272727272728,Experimental - Marked
+394,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=5)]",0.5,0.02309144598628897,0.011747958763377996,0.6863636363636364,Experimental - Marked
+395,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest()]",0.5,0.023974019235797416,0.01222132461891481,0.6401515151515151,Experimental - Marked
+396,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=20)]",0.5,0.02718639199842729,0.01387147244658481,0.6848484848484849,Experimental - Marked
+397,LogisticRegression(random_state=12),"[Normalizer(), SelectKBest(k=40)]",0.5,0.029638752952131687,0.01513661214874093,0.7121212121212122,Experimental - Marked
+398,LogisticRegression(random_state=12),,0.5,0.03981228209012534,0.020440416454031673,0.775,Experimental - Marked
+399,LogisticRegression(random_state=12),,0.5,0.04330340902151231,0.022259809654963773,0.8106060606060606,Experimental - Marked
