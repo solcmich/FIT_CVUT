@@ -4,6 +4,7 @@
 * PA2 - Programování a aglrotimizace 2 
 * PDD - Předzpracování dat
 * Thesis - Bakalářská práce
+* SVZ - Strojové vidění a zpracování obrazu
 * VWM - Vyhledávání v multimediálních databázích
 * VZD - Vytěžování znalostí z dat
 * ZUM - Základy umělé inteligence
